@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T21:31:49Z",
+  "generated_at": "2026-11-16T21:33:58Z",
   "preview": false,
   "series": {
     "cloudflare|avar.me|page_views": [
@@ -2217,6 +2217,27 @@
         "status": "estimated",
         "value": 10
       },
+      {
+        "date": "2026-11-16",
+        "status": "estimated",
+        "value": 10
+      }
+    ],
+    "cloudflare|stats.avar.me|page_views": [
+      {
+        "date": "2026-11-16",
+        "status": "estimated",
+        "value": 10
+      }
+    ],
+    "cloudflare|stats.avar.me|page_views|country=TR": [
+      {
+        "date": "2026-11-16",
+        "status": "delayed",
+        "value": 10
+      }
+    ],
+    "cloudflare|stats.avar.me|visits": [
       {
         "date": "2026-11-16",
         "status": "estimated",
