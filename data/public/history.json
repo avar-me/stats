@@ -1,5 +1,34 @@
 {
-  "generated_at": "2026-11-16T21:02:26Z",
+  "generated_at": "2026-11-16T21:22:43Z",
   "preview": false,
-  "series": {}
+  "series": {
+    "telegram_channels|avar_film|subscribers": [
+      {
+        "date": "2026-11-16",
+        "status": "confirmed",
+        "value": 139
+      }
+    ],
+    "telegram_channels|avar_kino|subscribers": [
+      {
+        "date": "2026-11-16",
+        "status": "confirmed",
+        "value": 18
+      }
+    ],
+    "telegram_channels|avarlangme|subscribers": [
+      {
+        "date": "2026-11-16",
+        "status": "confirmed",
+        "value": 129
+      }
+    ],
+    "telegram_stickers|AvarMe|sticker_count": [
+      {
+        "date": "2026-11-16",
+        "status": "confirmed",
+        "value": 31
+      }
+    ]
+  }
 }

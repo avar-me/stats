@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "entity_errors": {},
+    "entity_info": {
+      "AvarMe": {
+        "emojis": "❤️ 💪 😊 👋 🤔 😎 🙅 😢 😂 🤯 🥳 👏",
+        "installs_note": "Статистика установок недоступна через Telegram API",
+        "sticker_type": "regular",
+        "stickers": "31",
+        "title": "Avar.Me",
+        "url": "https://t.me/addstickers/AvarMe"
+      }
+    },
+    "last_attempt": "2026-11-16T21:22:41Z",
+    "last_error": null,
+    "last_records": 1,
+    "last_success": "2026-11-16T21:22:41Z",
+    "state": "ok",
+    "warnings": []
+  },
+  "observations": {
+    "telegram_stickers|AvarMe|sticker_count|2026-11-16|": {
+      "aggregation": "snapshot",
+      "collected_at": "2026-11-16T21:22:41Z",
+      "date": "2026-11-16",
+      "dimensions": {},
+      "entity": "AvarMe",
+      "metric": "sticker_count",
+      "revision": "2026-11-16T21:22:41Z",
+      "source": "telegram_stickers",
+      "status": "confirmed",
+      "unit": "stickers",
+      "value": 31.0
+    }
+  }
+}
