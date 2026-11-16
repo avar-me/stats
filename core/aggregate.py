@@ -25,13 +25,21 @@ def build_public(store: HistoryStore, config: dict, sources: list, now: datetime
         meta = document["meta"]
         status = _display_status(enabled, meta, now, freshness)
         grouped = _group(document["observations"].values())
+        source_entities = source.entities(block)
+        entity_ids = {entity.id for entity in source_entities}
+        # Flow windows end on the newest day any site reported. A site that stopped
+        # reporting then shows an empty window instead of its old numbers as "last 7 days".
+        source_ends: dict[str, str] = {}
+        for (entity_id, metric, dims), points in grouped.items():
+            if entity_id in entity_ids and not dims and points and points[-1].get("aggregation") != "period":
+                source_ends[metric] = max(source_ends.get(metric, ""), points[-1]["date"])
         entities = []
-        for entity in source.entities(block):
+        for entity in source_entities:
             metrics = []
             breakdowns = []
             for spec in metrics_for(source.id, available_only=True):
                 points = grouped.get((entity.id, spec.metric, ()), [])
-                summary = _summarize(spec, points)
+                summary = _summarize(spec, points, source_ends.get(spec.metric))
                 summary["series"] = f"{source.id}|{entity.id}|{spec.metric}"
                 metrics.append(summary)
                 public_points = _public_points(points) if spec.chart else []
@@ -48,7 +56,7 @@ def build_public(store: HistoryStore, config: dict, sources: list, now: datetime
                 "id": entity.id,
                 "title": entity.title,
                 "link": entity.link,
-                "message": (meta.get("entity_errors") or {}).get(entity.id),
+                "note": (meta.get("entity_errors") or {}).get(entity.id),
                 "info": _public_info(info),
                 "metrics": metrics,
                 "breakdowns": breakdowns,
@@ -60,7 +68,7 @@ def build_public(store: HistoryStore, config: dict, sources: list, now: datetime
             "status": status,
             "last_success": meta.get("last_success"),
             "last_attempt": meta.get("last_attempt"),
-            "message": _source_message(enabled, meta, status),
+            "note": _source_message(enabled, meta, status),
             "hint": getattr(source, "hint", ""),
             "warnings": list(meta.get("warnings") or []),
             "unavailable": [
@@ -81,7 +89,7 @@ def build_public(store: HistoryStore, config: dict, sources: list, now: datetime
         "sources": source_blocks,
     }
     history = {"generated_at": generated, "preview": False, "series": series}
-    return summary, history
+    return strip_private(summary), strip_private(history)
 
 
 def _group(observations) -> dict[tuple, list[dict]]:
@@ -145,7 +153,7 @@ def _latest_breakdown(spec: MetricSpec, grouped: dict, entity: str) -> list[dict
     return breakdowns
 
 
-def _summarize(spec: MetricSpec, points: list[dict]) -> dict:
+def _summarize(spec: MetricSpec, points: list[dict], end: str | None = None) -> dict:
     base = {
         "metric": spec.metric,
         "label": spec.label,
@@ -176,8 +184,9 @@ def _summarize(spec: MetricSpec, points: list[dict]) -> dict:
         base["delta_30d"] = json_number(delta_30)
         base["delta_30d_from"] = from_30
     elif spec.kind == "flow":
-        base["window_7d"] = _window(points, latest["date"], 7)
-        base["window_30d"] = _window(points, latest["date"], 30)
+        window_end = end or latest["date"]
+        base["window_7d"] = _window(points, window_end, 7)
+        base["window_30d"] = _window(points, window_end, 30)
     return base
 
 
@@ -204,7 +213,17 @@ def _window(points: list[dict], end: str, days: int) -> dict | None:
         "days_expected": days,
         "start": start.isoformat(),
         "end": end,
+        # Private: which days carried data. Removed before publishing.
+        "_dates": sorted({point["date"] for point in chosen}),
     }
+
+
+def strip_private(value):
+    if isinstance(value, dict):
+        return {key: strip_private(item) for key, item in value.items() if not str(key).startswith("_")}
+    if isinstance(value, list):
+        return [strip_private(item) for item in value]
+    return value
 
 
 def _overview_cards(source, entities: list[dict], status: str, updated_at: str | None) -> list[dict]:
@@ -252,10 +271,11 @@ def _overview_cards(source, entities: list[dict], status: str, updated_at: str |
         if spec.kind in {"snapshot", "level"} and present and all(row["delta_30d"] is not None for row in present):
             card["delta_30d"] = json_number(sum(row["delta_30d"] for row in present))
             card["delta_30d_from"] = min(row["delta_30d_from"] for row in present)
-        if spec.kind == "flow" and present and all(row["window_7d"] for row in present):
-            card["window_7d"] = _merge_windows([row["window_7d"] for row in present])
-        if spec.kind == "flow" and present and all(row["window_30d"] for row in present):
-            card["window_30d"] = _merge_windows([row["window_30d"] for row in present])
+        if spec.kind == "flow":
+            windows_7d = [row["window_7d"] for row in present if row["window_7d"]]
+            windows_30d = [row["window_30d"] for row in present if row["window_30d"]]
+            card["window_7d"] = _merge_windows(windows_7d) if windows_7d else None
+            card["window_30d"] = _merge_windows(windows_30d) if windows_30d else None
         cards.append(card)
     if not any(spec.primary and spec.available for spec in metrics_for(source.id)):
         return cards
@@ -263,12 +283,16 @@ def _overview_cards(source, entities: list[dict], status: str, updated_at: str |
 
 
 def _merge_windows(windows: list[dict]) -> dict:
+    # A day counts once if any site reported it. Sites with sparse traffic do not
+    # shrink the count for busy sites, and missing days are not filled with zeros.
+    days = sorted({day for window in windows for day in window["_dates"]})
     return {
         "sum": json_number(sum(window["sum"] for window in windows)),
-        "days_present": min(window["days_present"] for window in windows),
+        "days_present": len(days),
         "days_expected": windows[0]["days_expected"],
         "start": windows[0]["start"],
         "end": windows[0]["end"],
+        "_dates": days,
     }
 
 

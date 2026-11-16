@@ -392,3 +392,36 @@ def _source(source_id, entities):
 def _tsv(text: str) -> bytes:
     import gzip
     return gzip.compress(text.encode())
+
+
+def test_card_window_counts_days_any_site_reported_and_skips_sites_without_recent_data(tmp_path):
+    store = HistoryStore(tmp_path)
+    store.merge("cloudflare", [
+        observation(source="cloudflare", entity="avar.me", metric="page_views", date="2026-11-16", value=5, unit="views", aggregation="daily"),
+        observation(source="cloudflare", entity="avar.me", metric="page_views", date="2026-11-15", value=5, unit="views", aggregation="daily"),
+        observation(source="cloudflare", entity="index.avar.me", metric="page_views", date="2026-10-22", value=7, unit="views", aggregation="daily"),
+    ])
+    entities = [Entity("avar.me", "avar.me"), Entity("index.avar.me", "index.avar.me")]
+    summary, _history = build_public(
+        store, {"sources": {"cloudflare": {"enabled": True}}}, [_source("cloudflare", entities)], NOW,
+    )
+    card = next(item for item in summary["cards"] if item["id"] == "cloudflare.page_views")
+    # index.avar.me stopped on 2026-10-22: its old views must not appear as "last 7 days".
+    assert card["window_7d"]["sum"] == 10
+    assert card["window_7d"]["days_present"] == 2
+    assert card["window_30d"]["sum"] == 17
+    assert card["window_30d"]["days_present"] == 3
+    assert "_dates" not in json.dumps(summary)
+
+
+def test_source_and_entity_notes_survive_public_filtering(tmp_path):
+    store = HistoryStore(tmp_path)
+    store.record_run("telegram_channels", state="error", attempted_at="2026-11-16T03:00:00Z", records=0,
+                     error="Нет доступа к каналу", entity_errors={"avarlangme": "chat not found"})
+    block = {"enabled": True, "channels": [{"username": "avarlangme", "enabled": True}]}
+    summary, _history = build_public(store, {"sources": {"telegram_channels": block}},
+                                     [_source("telegram_channels", TelegramChannelsSource().entities(block))], NOW)
+    source = summary["sources"][0]
+    assert source["note"] == "Нет доступа к каналу"
+    assert source["entities"][0]["note"] == "chat not found"
+    assert "message" not in source

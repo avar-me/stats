@@ -202,7 +202,7 @@
     const heading = document.createElement("h2");
     heading.textContent = source.title;
     section.append(heading, statusPill(source.status));
-    if (source.message) section.appendChild(paragraph(source.message));
+    if (source.note) section.appendChild(paragraph(source.note));
     if (source.hint) section.appendChild(paragraph(source.hint, "hint"));
     (source.warnings || []).forEach(function (warning) {
       section.appendChild(paragraph(warning, "fine"));
@@ -235,7 +235,7 @@
       head.appendChild(link);
     }
     block.appendChild(head);
-    if (entity.message) block.appendChild(paragraph(entity.message, "fine"));
+    if (entity.note) block.appendChild(paragraph(entity.note, "fine"));
     if (!hasNumbers(entity)) return block;
     if (entity.info && entity.info.emojis) {
       const emojis = document.createElement("p");
