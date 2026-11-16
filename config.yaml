@@ -1,0 +1,91 @@
+freshness_hours: 36
+
+# Each block is an independent module in collectors/. A disabled source stays in
+# the registry and on the page, and starts working when enabled and given secrets.
+sources:
+  telegram_channels:
+    enabled: true
+    channels:
+      - username: avarlangme
+        title: Канал avar.me
+        enabled: true
+      - username: avar_kino
+        title: Аварское кино
+        enabled: true
+      - username: avar_film
+        title: Мультфильмы
+        enabled: true
+      - username: avarme_chat
+        title: Чат avar.me
+        enabled: false
+
+  telegram_stickers:
+    enabled: true
+    packs:
+      - name: AvarMe
+        title: Хӏарпик
+        enabled: true
+
+  cloudflare:
+    enabled: true
+    lookback_days: 30
+    sites:
+      - hostname: avar.me
+        enabled: true
+        site_tag: ""
+        zone_id: ""
+      - hostname: ios.avar.me
+        enabled: true
+        site_tag: ""
+        zone_id: ""
+      - hostname: en.avar.me
+        enabled: true
+        site_tag: ""
+        zone_id: ""
+      - hostname: forms.avar.me
+        enabled: true
+        site_tag: ""
+        zone_id: ""
+      - hostname: corrector.avar.me
+        enabled: true
+        site_tag: ""
+        zone_id: ""
+      - hostname: sources.avar.me
+        enabled: true
+        site_tag: ""
+        zone_id: ""
+      - hostname: dev.avar.me
+        enabled: true
+        site_tag: ""
+        zone_id: ""
+      - hostname: index.avar.me
+        enabled: true
+        site_tag: ""
+        zone_id: ""
+      - hostname: stats.avar.me
+        enabled: true
+        site_tag: ""
+        zone_id: ""
+
+  apple:
+    enabled: false
+    app_id: "6782280983"
+    title: iOS-приложение
+    link: https://ios.avar.me
+
+  google_play:
+    enabled: false
+    package: me.avar.dictionary
+    title: Android-приложение
+    link: https://android.avar.me
+    bucket: ""
+
+  telegram_bots:
+    enabled: false
+    bots:
+      - name: avar_me_bot
+        title: "@avar_me_bot"
+        enabled: true
+      - name: avarme_test_bot
+        title: "@avarme_test_bot"
+        enabled: false

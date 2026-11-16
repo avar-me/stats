@@ -1,0 +1,14 @@
+[project]
+name = "avar-stats"
+version = "1.0.0"
+description = "Public analytics dashboard for the avar.me ecosystem"
+requires-python = ">=3.12"
+dependencies = [
+  "PyYAML>=6.0",
+  "PyJWT>=2.9",
+  "cryptography>=43",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

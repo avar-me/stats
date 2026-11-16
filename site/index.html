@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Открытая статистика экосистемы avar.me: каналы, стикеры, сайты и подключаемые источники.">
+  <meta name="theme-color" content="#f4f1ea">
+  <title>Статистика avar.me</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,600&family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☀</text></svg>">
+  <script>
+    (function () {
+      var theme = localStorage.getItem("stats-theme");
+      if (theme === "light" || theme === "dark") document.documentElement.setAttribute("data-theme", theme);
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip" href="#content">К содержанию</a>
+  <div class="bg" aria-hidden="true"></div>
+  <header class="hero">
+    <p class="tag">stats.avar.me</p>
+    <div class="title-row">
+      <h1>Статистика avar<span class="dot">.</span>me</h1>
+      <div class="controls">
+        <div id="ranges" class="ranges" role="radiogroup" aria-label="Период графиков"></div>
+        <button id="theme" class="theme" type="button" aria-pressed="false">Тёмная тема</button>
+      </div>
+    </div>
+    <p class="lead">Открытые показатели экосистемы. Разные источники не складываются в одно число пользователей.</p>
+    <p id="updated" class="updated"></p>
+    <p id="preview-banner" class="banner" hidden>Демонстрационные данные для вёрстки. Это не статистика проекта.</p>
+  </header>
+  <main id="content">
+    <p class="loading">Загрузка данных…</p>
+  </main>
+  <footer class="site-footer">
+    <p>Проект <a href="https://avar.me">avar.me</a> · <a href="mailto:admin@avar.me">admin@avar.me</a></p>
+    <p>Пропуски в графиках — дни без данных. Нулями они не заполняются.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
