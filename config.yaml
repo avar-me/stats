@@ -32,39 +32,39 @@ sources:
     sites:
       - hostname: avar.me
         enabled: true
-        site_tag: ""
+        site_tag: ab93194023f1491084de6b4abcc23baa
         zone_id: ""
       - hostname: ios.avar.me
         enabled: true
-        site_tag: ""
+        site_tag: ab93194023f1491084de6b4abcc23baa
         zone_id: ""
       - hostname: en.avar.me
         enabled: true
-        site_tag: ""
+        site_tag: ab93194023f1491084de6b4abcc23baa
         zone_id: ""
       - hostname: forms.avar.me
         enabled: true
-        site_tag: ""
+        site_tag: ab93194023f1491084de6b4abcc23baa
         zone_id: ""
       - hostname: corrector.avar.me
         enabled: true
-        site_tag: ""
+        site_tag: ab93194023f1491084de6b4abcc23baa
         zone_id: ""
       - hostname: sources.avar.me
         enabled: true
-        site_tag: ""
+        site_tag: ab93194023f1491084de6b4abcc23baa
         zone_id: ""
       - hostname: dev.avar.me
         enabled: true
-        site_tag: ""
+        site_tag: ab93194023f1491084de6b4abcc23baa
         zone_id: ""
       - hostname: index.avar.me
         enabled: true
-        site_tag: ""
+        site_tag: ab93194023f1491084de6b4abcc23baa
         zone_id: ""
       - hostname: stats.avar.me
         enabled: true
-        site_tag: ""
+        site_tag: ab93194023f1491084de6b4abcc23baa
         zone_id: ""
 
   apple:
