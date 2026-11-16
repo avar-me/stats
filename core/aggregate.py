@@ -237,11 +237,15 @@ def _overview_cards(source, entities: list[dict], status: str, updated_at: str |
             if match is not None:
                 metric_rows.append(match)
         present = [row for row in metric_rows if row["latest"] is not None]
+        # Flow value is the newest day only: a site whose last day is older is not
+        # added to today's total. Its numbers still appear in the 7/30-day windows.
+        newest = max((row["latest_date"] for row in present), default=None)
+        day_rows = [row for row in present if spec.kind != "flow" or row["latest_date"] == newest]
         value = None
         partial = False
-        if present:
-            value = json_number(sum(float(row["latest"]) for row in present))
-            partial = len(present) < len(entities)
+        if day_rows:
+            value = json_number(sum(float(row["latest"]) for row in day_rows))
+            partial = len(day_rows) < len(entities)
         card = {
             "id": f"{source.id}.{spec.metric}",
             "source": source.id,
@@ -253,9 +257,9 @@ def _overview_cards(source, entities: list[dict], status: str, updated_at: str |
             "status": status,
             "value": value,
             "partial": partial,
-            "entities_with_value": len(present),
+            "entities_with_value": len(day_rows),
             "entities": len(entities),
-            "as_of": max(row["latest_date"] for row in present) if present else None,
+            "as_of": max(row["latest_date"] for row in day_rows) if day_rows else None,
             "updated_at": updated_at,
             "href": f"#source-{source.id}",
             "delta_7d": None,
@@ -272,8 +276,8 @@ def _overview_cards(source, entities: list[dict], status: str, updated_at: str |
             card["delta_30d"] = json_number(sum(row["delta_30d"] for row in present))
             card["delta_30d_from"] = min(row["delta_30d_from"] for row in present)
         if spec.kind == "flow":
-            windows_7d = [row["window_7d"] for row in present if row["window_7d"]]
-            windows_30d = [row["window_30d"] for row in present if row["window_30d"]]
+            windows_7d = [row["window_7d"] for row in metric_rows if row["window_7d"]]
+            windows_30d = [row["window_30d"] for row in metric_rows if row["window_30d"]]
             card["window_7d"] = _merge_windows(windows_7d) if windows_7d else None
             card["window_30d"] = _merge_windows(windows_30d) if windows_30d else None
         cards.append(card)

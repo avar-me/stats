@@ -407,6 +407,7 @@ def test_card_window_counts_days_any_site_reported_and_skips_sites_without_recen
     )
     card = next(item for item in summary["cards"] if item["id"] == "cloudflare.page_views")
     # index.avar.me stopped on 2026-10-22: its old views must not appear as "last 7 days".
+    assert card["value"] == 5  # newest day only: index.avar.me is not added to today
     assert card["window_7d"]["sum"] == 10
     assert card["window_7d"]["days_present"] == 2
     assert card["window_30d"]["sum"] == 17
