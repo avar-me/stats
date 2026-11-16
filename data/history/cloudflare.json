@@ -2,7 +2,7 @@
   "meta": {
     "entity_errors": {},
     "entity_info": {},
-    "last_attempt": "2026-11-16T21:22:41Z",
+    "last_attempt": "2026-11-16T21:27:00Z",
     "last_error": "Нужен site_tag Cloudflare Web Analytics для каждого сайта. Он виден в атрибуте data-cf-beacon и не совпадает с zone id.",
     "last_records": 0,
     "last_success": null,

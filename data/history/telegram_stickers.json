@@ -11,22 +11,22 @@
         "url": "https://t.me/addstickers/AvarMe"
       }
     },
-    "last_attempt": "2026-11-16T21:22:41Z",
+    "last_attempt": "2026-11-16T21:27:00Z",
     "last_error": null,
     "last_records": 1,
-    "last_success": "2026-11-16T21:22:41Z",
+    "last_success": "2026-11-16T21:27:00Z",
     "state": "ok",
     "warnings": []
   },
   "observations": {
     "telegram_stickers|AvarMe|sticker_count|2026-11-16|": {
       "aggregation": "snapshot",
-      "collected_at": "2026-11-16T21:22:41Z",
+      "collected_at": "2026-11-16T21:27:00Z",
       "date": "2026-11-16",
       "dimensions": {},
       "entity": "AvarMe",
       "metric": "sticker_count",
-      "revision": "2026-11-16T21:22:41Z",
+      "revision": "2026-11-16T21:27:00Z",
       "source": "telegram_stickers",
       "status": "confirmed",
       "unit": "stickers",
