@@ -11,10 +11,10 @@
         "url": "https://t.me/addstickers/AvarMe"
       }
     },
-    "last_attempt": "2026-11-17T11:38:39Z",
+    "last_attempt": "2026-11-18T11:26:07Z",
     "last_error": null,
     "last_records": 1,
-    "last_success": "2026-11-17T11:38:39Z",
+    "last_success": "2026-11-18T11:26:07Z",
     "state": "ok",
     "warnings": []
   },
@@ -40,6 +40,19 @@
       "entity": "AvarMe",
       "metric": "sticker_count",
       "revision": "2026-11-17T11:38:39Z",
+      "source": "telegram_stickers",
+      "status": "confirmed",
+      "unit": "stickers",
+      "value": 31.0
+    },
+    "telegram_stickers|AvarMe|sticker_count|2026-11-18|": {
+      "aggregation": "snapshot",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-18",
+      "dimensions": {},
+      "entity": "AvarMe",
+      "metric": "sticker_count",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "telegram_stickers",
       "status": "confirmed",
       "unit": "stickers",

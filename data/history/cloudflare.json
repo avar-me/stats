@@ -2,10 +2,10 @@
   "meta": {
     "entity_errors": {},
     "entity_info": {},
-    "last_attempt": "2026-11-17T11:38:39Z",
+    "last_attempt": "2026-11-18T11:26:07Z",
     "last_error": null,
-    "last_records": 153,
-    "last_success": "2026-11-17T11:38:39Z",
+    "last_records": 357,
+    "last_success": "2026-11-18T11:26:07Z",
     "state": "ok",
     "warnings": []
   },
@@ -173,31 +173,31 @@
     },
     "cloudflare|avar.me|page_views|2026-10-20|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-20",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 300.0
+      "value": 100.0
     },
     "cloudflare|avar.me|page_views|2026-10-20|country=AM": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-20",
       "dimensions": {
         "country": "AM"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 200.0
+      "value": 40.0
     },
     "cloudflare|avar.me|page_views|2026-10-20|country=HK": {
       "aggregation": "daily",
@@ -216,14 +216,14 @@
     },
     "cloudflare|avar.me|page_views|2026-10-20|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-20",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -231,18 +231,18 @@
     },
     "cloudflare|avar.me|page_views|2026-10-20|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-20",
       "dimensions": {
         "country": "TR"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 30.0
+      "value": 20.0
     },
     "cloudflare|avar.me|page_views|2026-10-20|country=US": {
       "aggregation": "daily",
@@ -261,27 +261,27 @@
     },
     "cloudflare|avar.me|page_views|2026-10-21|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-21",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 150.0
+      "value": 100.0
     },
     "cloudflare|avar.me|page_views|2026-10-21|country=AM": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-21",
       "dimensions": {
         "country": "AM"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -304,149 +304,224 @@
     },
     "cloudflare|avar.me|page_views|2026-10-21|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-21",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-10-21|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-21",
       "dimensions": {
         "country": "TR"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 80.0
+      "value": 60.0
+    },
+    "cloudflare|avar.me|page_views|2026-10-21|country=US": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-21",
+      "dimensions": {
+        "country": "US"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-10-22|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-22",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 200.0
+      "value": 100.0
     },
     "cloudflare|avar.me|page_views|2026-10-22|country=AM": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-22",
       "dimensions": {
         "country": "AM"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 80.0
+      "value": 50.0
+    },
+    "cloudflare|avar.me|page_views|2026-10-22|country=AZ": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-22",
+      "dimensions": {
+        "country": "AZ"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|avar.me|page_views|2026-10-22|country=CA": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-22",
+      "dimensions": {
+        "country": "CA"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|avar.me|page_views|2026-10-22|country=CN": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-22",
+      "dimensions": {
+        "country": "CN"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-10-22|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-22",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 40.0
+    },
+    "cloudflare|avar.me|page_views|2026-10-22|country=TR": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-22",
+      "dimensions": {
+        "country": "TR"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-10-22|country=US": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-22",
       "dimensions": {
         "country": "US"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 20.0
     },
     "cloudflare|avar.me|page_views|2026-10-23|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-23",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 300.0
+      "value": 400.0
     },
     "cloudflare|avar.me|page_views|2026-10-23|country=KZ": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-23",
       "dimensions": {
         "country": "KZ"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 30.0
+      "value": 40.0
     },
     "cloudflare|avar.me|page_views|2026-10-23|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-23",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 50.0
+      "value": 30.0
     },
     "cloudflare|avar.me|page_views|2026-10-23|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-23",
       "dimensions": {
         "country": "TR"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 80.0
     },
     "cloudflare|avar.me|page_views|2026-10-23|country=UA": {
       "aggregation": "daily",
@@ -480,18 +555,18 @@
     },
     "cloudflare|avar.me|page_views|2026-10-23|country=UZ": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-23",
       "dimensions": {
         "country": "UZ"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-10-24|": {
       "aggregation": "daily",
@@ -506,20 +581,50 @@
       "unit": "views",
       "value": 100.0
     },
+    "cloudflare|avar.me|page_views|2026-10-24|country=AM": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-24",
+      "dimensions": {
+        "country": "AM"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|avar.me|page_views|2026-10-24|country=AZ": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-24",
+      "dimensions": {
+        "country": "AZ"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
     "cloudflare|avar.me|page_views|2026-10-24|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-24",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 20.0
     },
     "cloudflare|avar.me|page_views|2026-10-24|country=US": {
       "aggregation": "daily",
@@ -564,59 +669,104 @@
       "unit": "views",
       "value": 10.0
     },
+    "cloudflare|avar.me|page_views|2026-10-25|country=EC": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-25",
+      "dimensions": {
+        "country": "EC"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
     "cloudflare|avar.me|page_views|2026-10-25|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-25",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 50.0
     },
     "cloudflare|avar.me|page_views|2026-10-25|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-25",
       "dimensions": {
         "country": "TR"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 40.0
+      "value": 30.0
+    },
+    "cloudflare|avar.me|page_views|2026-10-25|country=US": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-25",
+      "dimensions": {
+        "country": "US"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-10-26|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-26",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 130.0
+      "value": 200.0
     },
     "cloudflare|avar.me|page_views|2026-10-26|country=AM": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-26",
       "dimensions": {
         "country": "AM"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|avar.me|page_views|2026-10-26|country=AZ": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-26",
+      "dimensions": {
+        "country": "AZ"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -654,44 +804,59 @@
     },
     "cloudflare|avar.me|page_views|2026-10-26|country=KZ": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-26",
       "dimensions": {
         "country": "KZ"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 40.0
+      "value": 60.0
     },
     "cloudflare|avar.me|page_views|2026-10-26|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-26",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
       "value": 50.0
     },
+    "cloudflare|avar.me|page_views|2026-10-26|country=TR": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-26",
+      "dimensions": {
+        "country": "TR"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
     "cloudflare|avar.me|page_views|2026-10-26|country=US": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-26",
       "dimensions": {
         "country": "US"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -712,29 +877,44 @@
     },
     "cloudflare|avar.me|page_views|2026-10-27|country=AM": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-27",
       "dimensions": {
         "country": "AM"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-10-27|country=BY": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-27",
       "dimensions": {
         "country": "BY"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
+    },
+    "cloudflare|avar.me|page_views|2026-10-27|country=KW": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-27",
+      "dimensions": {
+        "country": "KW"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -742,33 +922,33 @@
     },
     "cloudflare|avar.me|page_views|2026-10-27|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-27",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 60.0
+      "value": 40.0
     },
     "cloudflare|avar.me|page_views|2026-10-27|country=SG": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-27",
       "dimensions": {
         "country": "SG"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 10.0
+      "value": 20.0
     },
     "cloudflare|avar.me|page_views|2026-10-28|": {
       "aggregation": "daily",
@@ -798,20 +978,35 @@
       "unit": "views",
       "value": 30.0
     },
+    "cloudflare|avar.me|page_views|2026-10-28|country=RU": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-28",
+      "dimensions": {
+        "country": "RU"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
     "cloudflare|avar.me|page_views|2026-10-28|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-28",
       "dimensions": {
         "country": "TR"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 200.0
+      "value": 40.0
     },
     "cloudflare|avar.me|page_views|2026-10-28|country=US": {
       "aggregation": "daily",
@@ -856,35 +1051,65 @@
       "unit": "views",
       "value": 10.0
     },
+    "cloudflare|avar.me|page_views|2026-10-29|country=AZ": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-29",
+      "dimensions": {
+        "country": "AZ"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|avar.me|page_views|2026-10-29|country=JP": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-29",
+      "dimensions": {
+        "country": "JP"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
     "cloudflare|avar.me|page_views|2026-10-29|country=KZ": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-29",
       "dimensions": {
         "country": "KZ"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-10-29|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-29",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 80.0
+      "value": 40.0
     },
     "cloudflare|avar.me|page_views|2026-10-29|country=TR": {
       "aggregation": "daily",
@@ -903,18 +1128,18 @@
     },
     "cloudflare|avar.me|page_views|2026-10-29|country=US": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-29",
       "dimensions": {
         "country": "US"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 40.0
+      "value": 60.0
     },
     "cloudflare|avar.me|page_views|2026-10-30|": {
       "aggregation": "daily",
@@ -929,16 +1154,31 @@
       "unit": "views",
       "value": 40.0
     },
+    "cloudflare|avar.me|page_views|2026-10-30|country=AZ": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-30",
+      "dimensions": {
+        "country": "AZ"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
     "cloudflare|avar.me|page_views|2026-10-30|country=KZ": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-30",
       "dimensions": {
         "country": "KZ"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -961,18 +1201,33 @@
     },
     "cloudflare|avar.me|page_views|2026-10-30|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-30",
       "dimensions": {
         "country": "TR"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
       "value": 10.0
+    },
+    "cloudflare|avar.me|page_views|2026-10-30|country=US": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-30",
+      "dimensions": {
+        "country": "US"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
     },
     "cloudflare|avar.me|page_views|2026-10-31|": {
       "aggregation": "daily",
@@ -1004,14 +1259,14 @@
     },
     "cloudflare|avar.me|page_views|2026-10-31|country=CN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "CN"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -1019,14 +1274,14 @@
     },
     "cloudflare|avar.me|page_views|2026-10-31|country=KZ": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "KZ"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -1034,42 +1289,57 @@
     },
     "cloudflare|avar.me|page_views|2026-10-31|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 10.0
+      "value": 20.0
     },
     "cloudflare|avar.me|page_views|2026-11-01|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-01",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 60.0
+      "value": 100.0
     },
     "cloudflare|avar.me|page_views|2026-11-01|country=BY": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-01",
       "dimensions": {
         "country": "BY"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-01|country=CA": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-01",
+      "dimensions": {
+        "country": "CA"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -1077,14 +1347,14 @@
     },
     "cloudflare|avar.me|page_views|2026-11-01|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-01",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -1092,46 +1362,76 @@
     },
     "cloudflare|avar.me|page_views|2026-11-01|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-01",
       "dimensions": {
         "country": "TR"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 30.0
     },
     "cloudflare|avar.me|page_views|2026-11-01|country=US": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-01",
       "dimensions": {
         "country": "US"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-02|": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-02",
+      "dimensions": {},
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "estimated",
+      "unit": "views",
+      "value": 100.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-02|country=AZ": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-02",
+      "dimensions": {
+        "country": "AZ"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
       "value": 10.0
     },
-    "cloudflare|avar.me|page_views|2026-11-02|": {
+    "cloudflare|avar.me|page_views|2026-11-02|country=CN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-02",
-      "dimensions": {},
+      "dimensions": {
+        "country": "CN"
+      },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
-      "status": "estimated",
+      "status": "confirmed",
       "unit": "views",
-      "value": 50.0
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-11-02|country=ME": {
       "aggregation": "daily",
@@ -1150,29 +1450,29 @@
     },
     "cloudflare|avar.me|page_views|2026-11-02|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-02",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 10.0
+      "value": 40.0
     },
     "cloudflare|avar.me|page_views|2026-11-02|country=SG": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-02",
       "dimensions": {
         "country": "SG"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -1180,16 +1480,16 @@
     },
     "cloudflare|avar.me|page_views|2026-11-03|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-03",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 40.0
+      "value": 100.0
     },
     "cloudflare|avar.me|page_views|2026-11-03|country=CA": {
       "aggregation": "daily",
@@ -1208,14 +1508,44 @@
     },
     "cloudflare|avar.me|page_views|2026-11-03|country=HK": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-03",
       "dimensions": {
         "country": "HK"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-03|country=IL": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-03",
+      "dimensions": {
+        "country": "IL"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-03|country=KZ": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-03",
+      "dimensions": {
+        "country": "KZ"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -1223,18 +1553,18 @@
     },
     "cloudflare|avar.me|page_views|2026-11-03|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-03",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 10.0
+      "value": 30.0
     },
     "cloudflare|avar.me|page_views|2026-11-03|country=TR": {
       "aggregation": "daily",
@@ -1246,6 +1576,36 @@
       "entity": "avar.me",
       "metric": "page_views",
       "revision": "2026-11-16T21:33:52Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-03|country=UA": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-03",
+      "dimensions": {
+        "country": "UA"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-03|country=US": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-03",
+      "dimensions": {
+        "country": "US"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -1281,18 +1641,33 @@
     },
     "cloudflare|avar.me|page_views|2026-11-04|country=GE": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-04",
       "dimensions": {
         "country": "GE"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
       "value": 10.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-04|country=RU": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-04",
+      "dimensions": {
+        "country": "RU"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
     },
     "cloudflare|avar.me|page_views|2026-11-04|country=TR": {
       "aggregation": "daily",
@@ -1309,14 +1684,29 @@
       "unit": "views",
       "value": 100.0
     },
+    "cloudflare|avar.me|page_views|2026-11-04|country=US": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-04",
+      "dimensions": {
+        "country": "US"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
     "cloudflare|avar.me|page_views|2026-11-05|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-05",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
@@ -1324,14 +1714,14 @@
     },
     "cloudflare|avar.me|page_views|2026-11-05|country=AZ": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-05",
       "dimensions": {
         "country": "AZ"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -1339,44 +1729,74 @@
     },
     "cloudflare|avar.me|page_views|2026-11-05|country=HK": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-05",
       "dimensions": {
         "country": "HK"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-11-05|country=KZ": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-05",
       "dimensions": {
         "country": "KZ"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 80.0
     },
     "cloudflare|avar.me|page_views|2026-11-05|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-05",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-05|country=TR": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-05",
+      "dimensions": {
+        "country": "TR"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-05|country=US": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-05",
+      "dimensions": {
+        "country": "US"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -1397,14 +1817,29 @@
     },
     "cloudflare|avar.me|page_views|2026-11-06|country=AZ": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-06",
       "dimensions": {
         "country": "AZ"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-06|country=CO": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-06",
+      "dimensions": {
+        "country": "CO"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -1412,29 +1847,44 @@
     },
     "cloudflare|avar.me|page_views|2026-11-06|country=KZ": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-06",
       "dimensions": {
         "country": "KZ"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 30.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-06|country=PK": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-06",
+      "dimensions": {
+        "country": "PK"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-11-06|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-06",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -1442,12 +1892,12 @@
     },
     "cloudflare|avar.me|page_views|2026-11-07|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-07",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
@@ -1455,33 +1905,33 @@
     },
     "cloudflare|avar.me|page_views|2026-11-07|country=AU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-07",
       "dimensions": {
         "country": "AU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 30.0
     },
     "cloudflare|avar.me|page_views|2026-11-07|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-07",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 40.0
+      "value": 60.0
     },
     "cloudflare|avar.me|page_views|2026-11-07|country=SG": {
       "aggregation": "daily",
@@ -1500,29 +1950,29 @@
     },
     "cloudflare|avar.me|page_views|2026-11-07|country=TW": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-07",
       "dimensions": {
         "country": "TW"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 40.0
     },
     "cloudflare|avar.me|page_views|2026-11-07|country=US": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-07",
       "dimensions": {
         "country": "US"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -1530,16 +1980,46 @@
     },
     "cloudflare|avar.me|page_views|2026-11-08|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-08",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 60.0
+      "value": 100.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-08|country=AZ": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-08",
+      "dimensions": {
+        "country": "AZ"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-08|country=CA": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-08",
+      "dimensions": {
+        "country": "CA"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-11-08|country=KZ": {
       "aggregation": "daily",
@@ -1558,57 +2038,72 @@
     },
     "cloudflare|avar.me|page_views|2026-11-08|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-08",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 30.0
     },
     "cloudflare|avar.me|page_views|2026-11-08|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-08",
       "dimensions": {
         "country": "TR"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-11-09|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-09",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
       "value": 200.0
     },
+    "cloudflare|avar.me|page_views|2026-11-09|country=AZ": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-09",
+      "dimensions": {
+        "country": "AZ"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
     "cloudflare|avar.me|page_views|2026-11-09|country=CN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-09",
       "dimensions": {
         "country": "CN"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -1616,29 +2111,44 @@
     },
     "cloudflare|avar.me|page_views|2026-11-09|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-09",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 170.0
+      "value": 120.0
     },
     "cloudflare|avar.me|page_views|2026-11-09|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-09",
       "dimensions": {
         "country": "TR"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 40.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-09|country=UA": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-09",
+      "dimensions": {
+        "country": "UA"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -1646,27 +2156,57 @@
     },
     "cloudflare|avar.me|page_views|2026-11-10|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-10",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 300.0
+      "value": 600.0
     },
     "cloudflare|avar.me|page_views|2026-11-10|country=AZ": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-10",
       "dimensions": {
         "country": "AZ"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-10|country=CN": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-10",
+      "dimensions": {
+        "country": "CN"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-10|country=GE": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-10",
+      "dimensions": {
+        "country": "GE"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -1674,59 +2214,74 @@
     },
     "cloudflare|avar.me|page_views|2026-11-10|country=HK": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-10",
       "dimensions": {
         "country": "HK"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 40.0
+      "value": 60.0
     },
     "cloudflare|avar.me|page_views|2026-11-10|country=KZ": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-10",
       "dimensions": {
         "country": "KZ"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 30.0
     },
     "cloudflare|avar.me|page_views|2026-11-10|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-10",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 200.0
+      "value": 220.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-10|country=SG": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-10",
+      "dimensions": {
+        "country": "SG"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-11-10|country=US": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-10",
       "dimensions": {
         "country": "US"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -1734,16 +2289,31 @@
     },
     "cloudflare|avar.me|page_views|2026-11-11|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-11",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 100.0
+      "value": 400.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-11|country=KZ": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-11",
+      "dimensions": {
+        "country": "KZ"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
     },
     "cloudflare|avar.me|page_views|2026-11-11|country=RS": {
       "aggregation": "daily",
@@ -1762,18 +2332,18 @@
     },
     "cloudflare|avar.me|page_views|2026-11-11|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-11",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 170.0
     },
     "cloudflare|avar.me|page_views|2026-11-11|country=TR": {
       "aggregation": "daily",
@@ -1792,27 +2362,42 @@
     },
     "cloudflare|avar.me|page_views|2026-11-12|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-12",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 40.0
+      "value": 100.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-12|country=CN": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-12",
+      "dimensions": {
+        "country": "CN"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
     },
     "cloudflare|avar.me|page_views|2026-11-12|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-12",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -1820,14 +2405,14 @@
     },
     "cloudflare|avar.me|page_views|2026-11-12|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-12",
       "dimensions": {
         "country": "TR"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -1835,14 +2420,29 @@
     },
     "cloudflare|avar.me|page_views|2026-11-12|country=US": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-12",
       "dimensions": {
         "country": "US"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-12|country=UZ": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-12",
+      "dimensions": {
+        "country": "UZ"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -1863,63 +2463,78 @@
     },
     "cloudflare|avar.me|page_views|2026-11-13|country=CN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-13",
       "dimensions": {
         "country": "CN"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
       "value": 20.0
     },
+    "cloudflare|avar.me|page_views|2026-11-13|country=KZ": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-13",
+      "dimensions": {
+        "country": "KZ"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 40.0
+    },
     "cloudflare|avar.me|page_views|2026-11-13|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-13",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-11-13|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-13",
       "dimensions": {
         "country": "TR"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 10.0
+      "value": 20.0
     },
     "cloudflare|avar.me|page_views|2026-11-13|country=UA": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-13",
       "dimensions": {
         "country": "UA"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-11-13|country=US": {
       "aggregation": "daily",
@@ -1938,100 +2553,145 @@
     },
     "cloudflare|avar.me|page_views|2026-11-14|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-14",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 200.0
+      "value": 300.0
     },
     "cloudflare|avar.me|page_views|2026-11-14|country=AZ": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-14",
       "dimensions": {
         "country": "AZ"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-11-14|country=KZ": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-14",
       "dimensions": {
         "country": "KZ"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 200.0
+      "value": 50.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-14|country=RU": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-14",
+      "dimensions": {
+        "country": "RU"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 30.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-14|country=SG": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-14",
+      "dimensions": {
+        "country": "SG"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-11-14|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-14",
       "dimensions": {
         "country": "TR"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 30.0
     },
     "cloudflare|avar.me|page_views|2026-11-14|country=US": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-14",
       "dimensions": {
         "country": "US"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-11-15|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-15",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 80.0
+      "value": 200.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-15|country=AZ": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-15",
+      "dimensions": {
+        "country": "AZ"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
     },
     "cloudflare|avar.me|page_views|2026-11-15|country=CN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-15",
       "dimensions": {
         "country": "CN"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -2039,33 +2699,78 @@
     },
     "cloudflare|avar.me|page_views|2026-11-15|country=HK": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-15",
       "dimensions": {
         "country": "HK"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 10.0
+      "value": 20.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-15|country=KZ": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-15",
+      "dimensions": {
+        "country": "KZ"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
     },
     "cloudflare|avar.me|page_views|2026-11-15|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-15",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 50.0
+      "value": 60.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-15|country=TR": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-15",
+      "dimensions": {
+        "country": "TR"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-15|country=US": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-15",
+      "dimensions": {
+        "country": "US"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
     },
     "cloudflare|avar.me|page_views|2026-11-16|": {
       "aggregation": "daily",
@@ -2097,33 +2802,33 @@
     },
     "cloudflare|avar.me|page_views|2026-11-16|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-16",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
-      "status": "delayed",
+      "status": "confirmed",
       "unit": "views",
       "value": 40.0
     },
     "cloudflare|avar.me|page_views|2026-11-16|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-16",
       "dimensions": {
         "country": "TR"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 50.0
     },
     "cloudflare|avar.me|page_views|2026-11-16|country=US": {
       "aggregation": "daily",
@@ -2277,46 +2982,91 @@
     },
     "cloudflare|avar.me|page_views|2026-11-17|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-17",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 200.0
+      "value": 300.0
     },
     "cloudflare|avar.me|page_views|2026-11-17|country=KZ": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-17",
       "dimensions": {
         "country": "KZ"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
-      "status": "delayed",
+      "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 90.0
     },
     "cloudflare|avar.me|page_views|2026-11-17|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-17",
       "dimensions": {
         "country": "RU"
       },
       "entity": "avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
-      "status": "delayed",
+      "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 130.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-17|country=SG": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-17",
+      "dimensions": {
+        "country": "SG"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-17|country=TR": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-17",
+      "dimensions": {
+        "country": "TR"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 30.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-17|country=US": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-17",
+      "dimensions": {
+        "country": "US"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 30.0
     },
     "cloudflare|avar.me|page_views|2026-11-17|path=/": {
       "aggregation": "period",
@@ -2453,6 +3203,184 @@
       "unit": "views",
       "value": 150.0
     },
+    "cloudflare|avar.me|page_views|2026-11-18|": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-18",
+      "dimensions": {},
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "estimated",
+      "unit": "views",
+      "value": 200.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-18|country=RU": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-18",
+      "dimensions": {
+        "country": "RU"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "delayed",
+      "unit": "views",
+      "value": 80.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-18|path=/": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-18",
+      "dimensions": {
+        "path": "/"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 3050.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-18|path=/index.html": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-18",
+      "dimensions": {
+        "path": "/index.html"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 410.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-18|path=/phrases.html": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-18",
+      "dimensions": {
+        "path": "/phrases.html"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 240.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-18|referrer=(прямой заход)": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-18",
+      "dimensions": {
+        "referrer": "(прямой заход)"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 500.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-18|referrer=avar.me": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-18",
+      "dimensions": {
+        "referrer": "avar.me"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 2600.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-18|referrer=duckduckgo.com": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-18",
+      "dimensions": {
+        "referrer": "duckduckgo.com"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 100.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-18|referrer=www.facebook.com": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-18",
+      "dimensions": {
+        "referrer": "www.facebook.com"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 100.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-18|referrer=www.google.com": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-18",
+      "dimensions": {
+        "referrer": "www.google.com"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 100.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-18|referrer=ya.ru": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-18",
+      "dimensions": {
+        "referrer": "ya.ru"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 100.0
+    },
+    "cloudflare|avar.me|page_views|2026-11-18|referrer=yandex.ru": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-18",
+      "dimensions": {
+        "referrer": "yandex.ru"
+      },
+      "entity": "avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 300.0
+    },
     "cloudflare|avar.me|visits|2026-10-18|": {
       "aggregation": "daily",
       "collected_at": "2026-11-16T21:33:52Z",
@@ -2481,38 +3409,38 @@
     },
     "cloudflare|avar.me|visits|2026-10-20|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-20",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 300.0
+      "value": 100.0
     },
     "cloudflare|avar.me|visits|2026-10-21|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-21",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "visits",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 30.0
+      "value": 0.0
     },
     "cloudflare|avar.me|visits|2026-10-22|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-22",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
@@ -2520,16 +3448,16 @@
     },
     "cloudflare|avar.me|visits|2026-10-23|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-23",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 100.0
+      "value": 200.0
     },
     "cloudflare|avar.me|visits|2026-10-24|": {
       "aggregation": "daily",
@@ -2559,16 +3487,16 @@
     },
     "cloudflare|avar.me|visits|2026-10-26|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-26",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "visits",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 30.0
+      "value": 0.0
     },
     "cloudflare|avar.me|visits|2026-10-27|": {
       "aggregation": "daily",
@@ -2637,42 +3565,42 @@
     },
     "cloudflare|avar.me|visits|2026-11-01|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-01",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "visits",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 60.0
+      "value": 100.0
     },
     "cloudflare|avar.me|visits|2026-11-02|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-02",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "visits",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 50.0
+      "value": 0.0
     },
     "cloudflare|avar.me|visits|2026-11-03|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-03",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "visits",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 20.0
+      "value": 0.0
     },
     "cloudflare|avar.me|visits|2026-11-04|": {
       "aggregation": "daily",
@@ -2689,12 +3617,12 @@
     },
     "cloudflare|avar.me|visits|2026-11-05|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-05",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
@@ -2715,12 +3643,12 @@
     },
     "cloudflare|avar.me|visits|2026-11-07|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-07",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
@@ -2728,38 +3656,38 @@
     },
     "cloudflare|avar.me|visits|2026-11-08|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-08",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "visits",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 30.0
+      "value": 0.0
     },
     "cloudflare|avar.me|visits|2026-11-09|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-09",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "visits",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 140.0
+      "value": 0.0
     },
     "cloudflare|avar.me|visits|2026-11-10|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-10",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
@@ -2767,12 +3695,12 @@
     },
     "cloudflare|avar.me|visits|2026-11-11|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-11",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
@@ -2780,16 +3708,16 @@
     },
     "cloudflare|avar.me|visits|2026-11-12|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-12",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "visits",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 20.0
+      "value": 100.0
     },
     "cloudflare|avar.me|visits|2026-11-13|": {
       "aggregation": "daily",
@@ -2806,29 +3734,29 @@
     },
     "cloudflare|avar.me|visits|2026-11-14|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-14",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 0.0
+      "value": 100.0
     },
     "cloudflare|avar.me|visits|2026-11-15|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-15",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "visits",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 20.0
+      "value": 100.0
     },
     "cloudflare|avar.me|visits|2026-11-16|": {
       "aggregation": "daily",
@@ -2845,16 +3773,29 @@
     },
     "cloudflare|avar.me|visits|2026-11-17|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-17",
       "dimensions": {},
       "entity": "avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
       "value": 100.0
+    },
+    "cloudflare|avar.me|visits|2026-11-18|": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-18",
+      "dimensions": {},
+      "entity": "avar.me",
+      "metric": "visits",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "estimated",
+      "unit": "visits",
+      "value": 200.0
     },
     "cloudflare|dev.avar.me|page_views|2026-10-22|": {
       "aggregation": "daily",
@@ -2914,12 +3855,12 @@
     },
     "cloudflare|dev.avar.me|page_views|2026-10-28|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-28",
       "dimensions": {},
       "entity": "dev.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
@@ -2927,14 +3868,14 @@
     },
     "cloudflare|dev.avar.me|page_views|2026-10-28|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-28",
       "dimensions": {
         "country": "TR"
       },
       "entity": "dev.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -2970,12 +3911,12 @@
     },
     "cloudflare|dev.avar.me|page_views|2026-10-30|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-30",
       "dimensions": {},
       "entity": "dev.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
@@ -2983,14 +3924,14 @@
     },
     "cloudflare|dev.avar.me|page_views|2026-10-30|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-30",
       "dimensions": {
         "country": "TR"
       },
       "entity": "dev.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -2998,12 +3939,12 @@
     },
     "cloudflare|dev.avar.me|page_views|2026-10-31|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {},
       "entity": "dev.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
@@ -3011,14 +3952,14 @@
     },
     "cloudflare|dev.avar.me|page_views|2026-10-31|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "TR"
       },
       "entity": "dev.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -3041,18 +3982,18 @@
     },
     "cloudflare|dev.avar.me|page_views|2026-10-31|path=/index.html": {
       "aggregation": "period",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "path": "/index.html"
       },
       "entity": "dev.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 160.0
+      "value": 400.0
     },
     "cloudflare|dev.avar.me|page_views|2026-10-31|path=/phrases.html": {
       "aggregation": "period",
@@ -3071,29 +4012,29 @@
     },
     "cloudflare|dev.avar.me|page_views|2026-10-31|referrer=(прямой заход)": {
       "aggregation": "period",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "referrer": "(прямой заход)"
       },
       "entity": "dev.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 90.0
+      "value": 100.0
     },
     "cloudflare|dev.avar.me|page_views|2026-10-31|referrer=dev.avar.me": {
       "aggregation": "period",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "referrer": "dev.avar.me"
       },
       "entity": "dev.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -3518,12 +4459,12 @@
     },
     "cloudflare|dev.avar.me|visits|2026-10-28|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-28",
       "dimensions": {},
       "entity": "dev.avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
@@ -3544,12 +4485,12 @@
     },
     "cloudflare|dev.avar.me|visits|2026-10-30|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-30",
       "dimensions": {},
       "entity": "dev.avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
@@ -3557,12 +4498,12 @@
     },
     "cloudflare|dev.avar.me|visits|2026-10-31|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {},
       "entity": "dev.avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
@@ -3769,6 +4710,66 @@
       "unit": "views",
       "value": 10.0
     },
+    "cloudflare|index.avar.me|page_views|2026-11-05|country=IL": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-05",
+      "dimensions": {
+        "country": "IL"
+      },
+      "entity": "index.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|index.avar.me|page_views|2026-11-09|country=TR": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-09",
+      "dimensions": {
+        "country": "TR"
+      },
+      "entity": "index.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|index.avar.me|page_views|2026-11-12|country=CN": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-12",
+      "dimensions": {
+        "country": "CN"
+      },
+      "entity": "index.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|index.avar.me|page_views|2026-11-18|path=/": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-18",
+      "dimensions": {
+        "path": "/"
+      },
+      "entity": "index.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 30.0
+    },
     "cloudflare|index.avar.me|visits|2026-10-22|": {
       "aggregation": "daily",
       "collected_at": "2026-11-16T21:33:52Z",
@@ -3784,12 +4785,12 @@
     },
     "cloudflare|ios.avar.me|page_views|2026-10-30|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-30",
       "dimensions": {},
       "entity": "ios.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
@@ -3797,14 +4798,14 @@
     },
     "cloudflare|ios.avar.me|page_views|2026-10-30|country=CN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-30",
       "dimensions": {
         "country": "CN"
       },
       "entity": "ios.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -3827,14 +4828,14 @@
     },
     "cloudflare|ios.avar.me|page_views|2026-10-30|referrer=(прямой заход)": {
       "aggregation": "period",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-30",
       "dimensions": {
         "referrer": "(прямой заход)"
       },
       "entity": "ios.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -3984,12 +4985,12 @@
     },
     "cloudflare|ios.avar.me|visits|2026-10-30|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-30",
       "dimensions": {},
       "entity": "ios.avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
@@ -4118,44 +5119,74 @@
       "unit": "views",
       "value": 100.0
     },
+    "cloudflare|sources.avar.me|page_views|2026-10-20|country=AR": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-20",
+      "dimensions": {
+        "country": "AR"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
     "cloudflare|sources.avar.me|page_views|2026-10-20|country=CN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-20",
       "dimensions": {
         "country": "CN"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 10.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-10-21|country=CN": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-21",
+      "dimensions": {
+        "country": "CN"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-22|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-22",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 100.0
+      "value": 200.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-22|country=AR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-22",
       "dimensions": {
         "country": "AR"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -4163,14 +5194,14 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-22|country=CN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-22",
       "dimensions": {
         "country": "CN"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -4178,18 +5209,18 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-22|country=CO": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-22",
       "dimensions": {
         "country": "CO"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-22|country=EC": {
       "aggregation": "daily",
@@ -4223,14 +5254,14 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-22|country=UA": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-22",
       "dimensions": {
         "country": "UA"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -4238,12 +5269,12 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-23|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-23",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
@@ -4251,29 +5282,29 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-23|country=CN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-23",
       "dimensions": {
         "country": "CN"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 40.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-23|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-23",
       "dimensions": {
         "country": "TR"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -4309,14 +5340,14 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-24|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-24",
       "dimensions": {
         "country": "RU"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -4324,61 +5355,61 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-24|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-24",
       "dimensions": {
         "country": "TR"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-25|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-25",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 40.0
+      "value": 200.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-25|country=CN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-25",
       "dimensions": {
         "country": "CN"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 10.0
+      "value": 30.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-25|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-25",
       "dimensions": {
         "country": "TR"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 30.0
+      "value": 50.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-26|": {
       "aggregation": "daily",
@@ -4395,14 +5426,14 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-26|country=CN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-26",
       "dimensions": {
         "country": "CN"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -4410,12 +5441,12 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-27|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-27",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
@@ -4423,18 +5454,33 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-27|country=CN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-27",
       "dimensions": {
         "country": "CN"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 10.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-10-27|country=CO": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-27",
+      "dimensions": {
+        "country": "CO"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-27|country=RU": {
       "aggregation": "daily",
@@ -4453,29 +5499,29 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-27|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-27",
       "dimensions": {
         "country": "TR"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 40.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-27|country=ZA": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-27",
       "dimensions": {
         "country": "ZA"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -4511,18 +5557,18 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-28|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-28",
       "dimensions": {
         "country": "TR"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 50.0
+      "value": 40.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-29|": {
       "aggregation": "daily",
@@ -4554,27 +5600,42 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 5000.0
+      "value": 4900.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=AE": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "AE"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 30.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-10-31|country=AO": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-31",
+      "dimensions": {
+        "country": "AO"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -4582,63 +5643,93 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=AR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "AR"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 300.0
+      "value": 140.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=AZ": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "AZ"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 200.0
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=BD": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "BD"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 90.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-10-31|country=BH": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-31",
+      "dimensions": {
+        "country": "BH"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-10-31|country=BO": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-31",
+      "dimensions": {
+        "country": "BO"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=BR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "BR"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 200.0
+      "value": 100.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=BY": {
       "aggregation": "daily",
@@ -4672,44 +5763,44 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=CI": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "CI"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=CL": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "CL"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 200.0
+      "value": 70.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=CN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "CN"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -4717,29 +5808,44 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=CO": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "CO"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 200.0
+      "value": 60.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-10-31|country=CR": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-31",
+      "dimensions": {
+        "country": "CR"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=DO": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "DO"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -4747,14 +5853,14 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=DZ": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "DZ"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -4762,18 +5868,18 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=EC": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "EC"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 30.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=ET": {
       "aggregation": "daily",
@@ -4820,16 +5926,46 @@
       "unit": "views",
       "value": 10.0
     },
+    "cloudflare|sources.avar.me|page_views|2026-10-31|country=GT": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-31",
+      "dimensions": {
+        "country": "GT"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
+    },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=ID": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "ID"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 70.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-10-31|country=IL": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-31",
+      "dimensions": {
+        "country": "IL"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -4837,18 +5973,33 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=IN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "IN"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 200.0
+      "value": 120.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-10-31|country=IQ": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-31",
+      "dimensions": {
+        "country": "IQ"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=JO": {
       "aggregation": "daily",
@@ -4867,29 +6018,29 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=KE": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "KE"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 30.0
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=KH": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "KH"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -4897,14 +6048,29 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=KZ": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "KZ"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-10-31|country=LB": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-31",
+      "dimensions": {
+        "country": "LB"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -4912,33 +6078,33 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=MA": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "MA"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 40.0
+      "value": 50.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=MX": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "MX"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 70.0
+      "value": 40.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=NG": {
       "aggregation": "daily",
@@ -4955,16 +6121,46 @@
       "unit": "views",
       "value": 20.0
     },
+    "cloudflare|sources.avar.me|page_views|2026-10-31|country=NP": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-31",
+      "dimensions": {
+        "country": "NP"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=OM": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "OM"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-10-31|country=PA": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-31",
+      "dimensions": {
+        "country": "PA"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -4972,33 +6168,33 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=PE": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "PE"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 30.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=PK": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "PK"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 120.0
+      "value": 140.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=PY": {
       "aggregation": "daily",
@@ -5032,14 +6228,14 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=SA": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "SA"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -5047,18 +6243,33 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=SG": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "SG"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 1800.0
+      "value": 1040.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-10-31|country=SN": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-31",
+      "dimensions": {
+        "country": "SN"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=SV": {
       "aggregation": "daily",
@@ -5077,14 +6288,14 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=TG": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "TG"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -5120,46 +6331,61 @@
       "unit": "views",
       "value": 10.0
     },
+    "cloudflare|sources.avar.me|page_views|2026-10-31|country=TR": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-10-31",
+      "dimensions": {
+        "country": "TR"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
+    },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=UA": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "UA"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 90.0
+      "value": 30.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=US": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "US"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 1400.0
+      "value": 1250.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=UZ": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "UZ"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -5167,61 +6393,91 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=VE": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "VE"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 10.0
+      "value": 30.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=VN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "VN"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 50.0
     },
     "cloudflare|sources.avar.me|page_views|2026-10-31|country=ZA": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {
         "country": "ZA"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 60.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-01|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-01",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 2500.0
+      "value": 2100.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-01|country=CN": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-01",
+      "dimensions": {
+        "country": "CN"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-01|country=EC": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-01",
+      "dimensions": {
+        "country": "EC"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-01|country=JO": {
       "aggregation": "daily",
@@ -5253,63 +6509,123 @@
       "unit": "views",
       "value": 10.0
     },
+    "cloudflare|sources.avar.me|page_views|2026-11-01|country=PK": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-01",
+      "dimensions": {
+        "country": "PK"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
     "cloudflare|sources.avar.me|page_views|2026-11-01|country=SG": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-01",
       "dimensions": {
         "country": "SG"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 1300.0
+      "value": 740.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-01|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-01",
       "dimensions": {
         "country": "TR"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 30.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-01|country=US": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-01",
       "dimensions": {
         "country": "US"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 1100.0
+      "value": 980.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-02|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-02",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 600.0
+      "value": 1600.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-02|country=CN": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-02",
+      "dimensions": {
+        "country": "CN"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 30.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-02|country=HK": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-02",
+      "dimensions": {
+        "country": "HK"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-02|country=HN": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-02",
+      "dimensions": {
+        "country": "HN"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-02|country=ID": {
       "aggregation": "daily",
@@ -5321,6 +6637,36 @@
       "entity": "sources.avar.me",
       "metric": "page_views",
       "revision": "2026-11-16T21:33:52Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-02|country=IQ": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-02",
+      "dimensions": {
+        "country": "IQ"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-02|country=PH": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-02",
+      "dimensions": {
+        "country": "PH"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -5343,72 +6689,87 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-11-02|country=SG": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-02",
       "dimensions": {
         "country": "SG"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 200.0
+      "value": 510.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-02|country=TR": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-02",
       "dimensions": {
         "country": "TR"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 10.0
+      "value": 30.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-02|country=US": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-02",
       "dimensions": {
         "country": "US"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 400.0
+      "value": 620.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-03|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-03",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 200.0
+      "value": 300.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-03|country=CN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-03",
       "dimensions": {
         "country": "CN"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-03|country=RU": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-03",
+      "dimensions": {
+        "country": "RU"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -5416,18 +6777,18 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-11-03|country=SG": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-03",
       "dimensions": {
         "country": "SG"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 90.0
+      "value": 100.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-03|country=SN": {
       "aggregation": "daily",
@@ -5444,44 +6805,74 @@
       "unit": "views",
       "value": 10.0
     },
+    "cloudflare|sources.avar.me|page_views|2026-11-03|country=TR": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-03",
+      "dimensions": {
+        "country": "TR"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
     "cloudflare|sources.avar.me|page_views|2026-11-03|country=US": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-03",
       "dimensions": {
         "country": "US"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 200.0
+      "value": 40.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-04|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-04",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 50.0
+      "value": 100.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-04|country=AR": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-04",
+      "dimensions": {
+        "country": "AR"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-04|country=CN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-04",
       "dimensions": {
         "country": "CN"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -5489,18 +6880,18 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-11-04|country=CO": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-04",
       "dimensions": {
         "country": "CO"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-04|country=DO": {
       "aggregation": "daily",
@@ -5517,6 +6908,51 @@
       "unit": "views",
       "value": 20.0
     },
+    "cloudflare|sources.avar.me|page_views|2026-11-04|country=EC": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-04",
+      "dimensions": {
+        "country": "EC"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-04|country=RU": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-04",
+      "dimensions": {
+        "country": "RU"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-04|country=TR": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-04",
+      "dimensions": {
+        "country": "TR"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
     "cloudflare|sources.avar.me|page_views|2026-11-05|": {
       "aggregation": "daily",
       "collected_at": "2026-11-16T21:33:52Z",
@@ -5530,6 +6966,36 @@
       "unit": "views",
       "value": 70.0
     },
+    "cloudflare|sources.avar.me|page_views|2026-11-05|country=BR": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-05",
+      "dimensions": {
+        "country": "BR"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-05|country=CN": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-05",
+      "dimensions": {
+        "country": "CN"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
     "cloudflare|sources.avar.me|page_views|2026-11-05|country=CO": {
       "aggregation": "daily",
       "collected_at": "2026-11-16T21:33:52Z",
@@ -5540,6 +7006,21 @@
       "entity": "sources.avar.me",
       "metric": "page_views",
       "revision": "2026-11-16T21:33:52Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-05|country=EC": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-05",
+      "dimensions": {
+        "country": "EC"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -5577,14 +7058,29 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-11-05|country=US": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-05",
       "dimensions": {
         "country": "US"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-06|country=RU": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-06",
+      "dimensions": {
+        "country": "RU"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -5605,14 +7101,14 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-11-07|country=CN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-07",
       "dimensions": {
         "country": "CN"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -5620,18 +7116,18 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-11-07|country=US": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-07",
       "dimensions": {
         "country": "US"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 10.0
+      "value": 20.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-08|": {
       "aggregation": "daily",
@@ -5648,14 +7144,14 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-11-08|country=CN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-08",
       "dimensions": {
         "country": "CN"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -5663,14 +7159,14 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-11-08|country=SG": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-08",
       "dimensions": {
         "country": "SG"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -5706,14 +7202,29 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-11-09|country=CN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-09",
       "dimensions": {
         "country": "CN"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-09|country=RU": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-09",
+      "dimensions": {
+        "country": "RU"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
@@ -5736,18 +7247,18 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-11-09|country=US": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-09",
       "dimensions": {
         "country": "US"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-10|": {
       "aggregation": "daily",
@@ -5764,89 +7275,149 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-11-10|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-10",
       "dimensions": {
         "country": "RU"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 10.0
+      "value": 30.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-10|country=US": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-10",
       "dimensions": {
         "country": "US"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-11|": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-11",
+      "dimensions": {},
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "estimated",
+      "unit": "views",
+      "value": 3200.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-11|country=CR": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-11",
+      "dimensions": {
+        "country": "CR"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
       "value": 10.0
     },
-    "cloudflare|sources.avar.me|page_views|2026-11-11|": {
+    "cloudflare|sources.avar.me|page_views|2026-11-11|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-11",
-      "dimensions": {},
+      "dimensions": {
+        "country": "RU"
+      },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
-      "status": "estimated",
+      "status": "confirmed",
       "unit": "views",
-      "value": 2200.0
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-11|country=SG": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-11",
       "dimensions": {
         "country": "SG"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 1500.0
+      "value": 1410.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-11|country=US": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-11",
       "dimensions": {
         "country": "US"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 700.0
+      "value": 1410.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-11|country=UY": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-11",
+      "dimensions": {
+        "country": "UY"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-11|country=VE": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-11",
+      "dimensions": {
+        "country": "VE"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-12|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-12",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 5000.0
+      "value": 5400.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-12|country=CN": {
       "aggregation": "daily",
@@ -5865,48 +7436,48 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-11-12|country=PH": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-12",
       "dimensions": {
         "country": "PH"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 20.0
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-12|country=SG": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-12",
       "dimensions": {
         "country": "SG"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 2700.0
+      "value": 2220.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-12|country=US": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-12",
       "dimensions": {
         "country": "US"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 2300.0
+      "value": 2490.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-12|country=ZA": {
       "aggregation": "daily",
@@ -5925,16 +7496,31 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-11-13|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-13",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "views",
-      "value": 500.0
+      "value": 900.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-13|country=CN": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-13",
+      "dimensions": {
+        "country": "CN"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-13|country=DZ": {
       "aggregation": "daily",
@@ -5953,33 +7539,198 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-11-13|country=SG": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-13",
       "dimensions": {
         "country": "SG"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 300.0
+      "value": 350.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-13|country=US": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-13",
       "dimensions": {
         "country": "US"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 200.0
+      "value": 360.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-13|path=/": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-13",
+      "dimensions": {
+        "path": "/"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 60.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-13|path=/av-en/%D0%BC%D1%8F%D0%B3.html": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-13",
+      "dimensions": {
+        "path": "/av-en/%D0%BC%D1%8F%D0%B3.html"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-13|path=/av-ru.1936.latin/%EA%9D%97er.html": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-13",
+      "dimensions": {
+        "path": "/av-ru.1936.latin/%EA%9D%97er.html"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-13|path=/av-ru.1936/": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-13",
+      "dimensions": {
+        "path": "/av-ru.1936/"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 30.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-13|path=/avar-telegram-articles/a/avar-language-1691.html": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-13",
+      "dimensions": {
+        "path": "/avar-telegram-articles/a/avar-language-1691.html"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-13|path=/avar-telegram-articles/a/avar-language-1884.html": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-13",
+      "dimensions": {
+        "path": "/avar-telegram-articles/a/avar-language-1884.html"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 20.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-13|path=/phrase-av-ru/": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-13",
+      "dimensions": {
+        "path": "/phrase-av-ru/"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 40.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-13|referrer=(прямой заход)": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-13",
+      "dimensions": {
+        "referrer": "(прямой заход)"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 18400.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-13|referrer=m.baidu.com": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-13",
+      "dimensions": {
+        "referrer": "m.baidu.com"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 100.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-13|referrer=sources.avar.me": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-13",
+      "dimensions": {
+        "referrer": "sources.avar.me"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 500.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-13|referrer=www.google.com": {
+      "aggregation": "period",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-13",
+      "dimensions": {
+        "referrer": "www.google.com"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 100.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-14|": {
       "aggregation": "daily",
@@ -6024,20 +7775,50 @@
       "unit": "views",
       "value": 10.0
     },
+    "cloudflare|sources.avar.me|page_views|2026-11-14|country=CN": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-14",
+      "dimensions": {
+        "country": "CN"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 30.0
+    },
     "cloudflare|sources.avar.me|page_views|2026-11-14|country=SG": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-14",
       "dimensions": {
         "country": "SG"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
       "value": 30.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-14|country=US": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-14",
+      "dimensions": {
+        "country": "US"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-15|": {
       "aggregation": "daily",
@@ -6052,20 +7833,35 @@
       "unit": "views",
       "value": 100.0
     },
+    "cloudflare|sources.avar.me|page_views|2026-11-15|country=CN": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-15",
+      "dimensions": {
+        "country": "CN"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
     "cloudflare|sources.avar.me|page_views|2026-11-15|country=RU": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-15",
       "dimensions": {
         "country": "RU"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "confirmed",
       "unit": "views",
-      "value": 100.0
+      "value": 10.0
     },
     "cloudflare|sources.avar.me|page_views|2026-11-15|path=/": {
       "aggregation": "period",
@@ -6262,16 +8058,16 @@
     },
     "cloudflare|sources.avar.me|page_views|2026-11-16|country=IN": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-16",
       "dimensions": {
         "country": "IN"
       },
       "entity": "sources.avar.me",
       "metric": "page_views",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
-      "status": "delayed",
+      "status": "confirmed",
       "unit": "views",
       "value": 10.0
     },
@@ -6455,6 +8251,36 @@
       "unit": "views",
       "value": 40.0
     },
+    "cloudflare|sources.avar.me|page_views|2026-11-17|country=RU": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-17",
+      "dimensions": {
+        "country": "RU"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "confirmed",
+      "unit": "views",
+      "value": 10.0
+    },
+    "cloudflare|sources.avar.me|page_views|2026-11-18|country=RU": {
+      "aggregation": "daily",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-18",
+      "dimensions": {
+        "country": "RU"
+      },
+      "entity": "sources.avar.me",
+      "metric": "page_views",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "cloudflare",
+      "status": "delayed",
+      "unit": "views",
+      "value": 10.0
+    },
     "cloudflare|sources.avar.me|visits|2026-10-19|": {
       "aggregation": "daily",
       "collected_at": "2026-11-16T21:33:52Z",
@@ -6483,25 +8309,25 @@
     },
     "cloudflare|sources.avar.me|visits|2026-10-22|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-22",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 100.0
+      "value": 200.0
     },
     "cloudflare|sources.avar.me|visits|2026-10-23|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-23",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
@@ -6522,16 +8348,16 @@
     },
     "cloudflare|sources.avar.me|visits|2026-10-25|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-25",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "visits",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 10.0
+      "value": 0.0
     },
     "cloudflare|sources.avar.me|visits|2026-10-26|": {
       "aggregation": "daily",
@@ -6548,16 +8374,16 @@
     },
     "cloudflare|sources.avar.me|visits|2026-10-27|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-27",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 100.0
+      "value": 0.0
     },
     "cloudflare|sources.avar.me|visits|2026-10-28|": {
       "aggregation": "daily",
@@ -6587,68 +8413,68 @@
     },
     "cloudflare|sources.avar.me|visits|2026-10-31|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-10-31",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 5000.0
+      "value": 4900.0
     },
     "cloudflare|sources.avar.me|visits|2026-11-01|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-01",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 2400.0
+      "value": 2000.0
     },
     "cloudflare|sources.avar.me|visits|2026-11-02|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-02",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 600.0
+      "value": 1600.0
     },
     "cloudflare|sources.avar.me|visits|2026-11-03|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-03",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 200.0
+      "value": 300.0
     },
     "cloudflare|sources.avar.me|visits|2026-11-04|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-16T21:33:52Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-04",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "visits",
-      "revision": "2026-11-16T21:33:52Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 50.0
+      "value": 0.0
     },
     "cloudflare|sources.avar.me|visits|2026-11-05|": {
       "aggregation": "daily",
@@ -6717,42 +8543,42 @@
     },
     "cloudflare|sources.avar.me|visits|2026-11-11|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-11",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 2200.0
+      "value": 3200.0
     },
     "cloudflare|sources.avar.me|visits|2026-11-12|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-12",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 5000.0
+      "value": 5400.0
     },
     "cloudflare|sources.avar.me|visits|2026-11-13|": {
       "aggregation": "daily",
-      "collected_at": "2026-11-17T11:38:39Z",
+      "collected_at": "2026-11-18T11:26:07Z",
       "date": "2026-11-13",
       "dimensions": {},
       "entity": "sources.avar.me",
       "metric": "visits",
-      "revision": "2026-11-17T11:38:39Z",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "cloudflare",
       "status": "estimated",
       "unit": "visits",
-      "value": 500.0
+      "value": 900.0
     },
     "cloudflare|sources.avar.me|visits|2026-11-14|": {
       "aggregation": "daily",

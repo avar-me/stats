@@ -2,10 +2,10 @@
   "meta": {
     "entity_errors": {},
     "entity_info": {},
-    "last_attempt": "2026-11-17T11:38:39Z",
+    "last_attempt": "2026-11-18T11:26:07Z",
     "last_error": null,
     "last_records": 3,
-    "last_success": "2026-11-17T11:38:39Z",
+    "last_success": "2026-11-18T11:26:07Z",
     "state": "ok",
     "warnings": []
   },
@@ -31,6 +31,19 @@
       "entity": "avar_film",
       "metric": "subscribers",
       "revision": "2026-11-17T11:38:39Z",
+      "source": "telegram_channels",
+      "status": "confirmed",
+      "unit": "subscribers",
+      "value": 139.0
+    },
+    "telegram_channels|avar_film|subscribers|2026-11-18|": {
+      "aggregation": "snapshot",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-18",
+      "dimensions": {},
+      "entity": "avar_film",
+      "metric": "subscribers",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "telegram_channels",
       "status": "confirmed",
       "unit": "subscribers",
@@ -62,6 +75,19 @@
       "unit": "subscribers",
       "value": 18.0
     },
+    "telegram_channels|avar_kino|subscribers|2026-11-18|": {
+      "aggregation": "snapshot",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-18",
+      "dimensions": {},
+      "entity": "avar_kino",
+      "metric": "subscribers",
+      "revision": "2026-11-18T11:26:07Z",
+      "source": "telegram_channels",
+      "status": "confirmed",
+      "unit": "subscribers",
+      "value": 18.0
+    },
     "telegram_channels|avarlangme|subscribers|2026-11-16|": {
       "aggregation": "snapshot",
       "collected_at": "2026-11-16T21:33:52Z",
@@ -83,6 +109,19 @@
       "entity": "avarlangme",
       "metric": "subscribers",
       "revision": "2026-11-17T11:38:39Z",
+      "source": "telegram_channels",
+      "status": "confirmed",
+      "unit": "subscribers",
+      "value": 129.0
+    },
+    "telegram_channels|avarlangme|subscribers|2026-11-18|": {
+      "aggregation": "snapshot",
+      "collected_at": "2026-11-18T11:26:07Z",
+      "date": "2026-11-18",
+      "dimensions": {},
+      "entity": "avarlangme",
+      "metric": "subscribers",
+      "revision": "2026-11-18T11:26:07Z",
       "source": "telegram_channels",
       "status": "confirmed",
       "unit": "subscribers",
