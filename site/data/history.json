@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T11:14:19Z",
+  "generated_at": "2026-11-21T10:51:03Z",
   "preview": false,
   "series": {
     "cloudflare|avar.me|page_views": [
@@ -171,7 +171,12 @@
       {
         "date": "2026-11-20",
         "status": "estimated",
-        "value": 60
+        "value": 240
+      },
+      {
+        "date": "2026-11-21",
+        "status": "estimated",
+        "value": 80
       }
     ],
     "cloudflare|avar.me|page_views|country=AE": [
@@ -468,6 +473,11 @@
         "date": "2026-10-26",
         "status": "confirmed",
         "value": 10
+      },
+      {
+        "date": "2026-11-20",
+        "status": "confirmed",
+        "value": 10
       }
     ],
     "cloudflare|avar.me|page_views|country=JP": [
@@ -576,6 +586,11 @@
         "date": "2026-11-17",
         "status": "confirmed",
         "value": 70
+      },
+      {
+        "date": "2026-11-21",
+        "status": "delayed",
+        "value": 20
       }
     ],
     "cloudflare|avar.me|page_views|country=ME": [
@@ -767,8 +782,13 @@
       },
       {
         "date": "2026-11-20",
+        "status": "confirmed",
+        "value": 220
+      },
+      {
+        "date": "2026-11-21",
         "status": "delayed",
-        "value": 50
+        "value": 60
       }
     ],
     "cloudflare|avar.me|page_views|country=SA": [
@@ -938,7 +958,7 @@
       },
       {
         "date": "2026-11-20",
-        "status": "delayed",
+        "status": "confirmed",
         "value": 10
       }
     ],
@@ -1289,7 +1309,12 @@
       {
         "date": "2026-11-20",
         "status": "estimated",
-        "value": 40
+        "value": 110
+      },
+      {
+        "date": "2026-11-21",
+        "status": "estimated",
+        "value": 60
       }
     ],
     "cloudflare|dev.avar.me|page_views": [
@@ -1367,6 +1392,11 @@
         "date": "2026-11-19",
         "status": "estimated",
         "value": 10
+      },
+      {
+        "date": "2026-11-20",
+        "status": "estimated",
+        "value": 20
       }
     ],
     "cloudflare|dev.avar.me|page_views|country=AZ": [
@@ -1374,6 +1404,11 @@
         "date": "2026-11-08",
         "status": "confirmed",
         "value": 20
+      },
+      {
+        "date": "2026-11-20",
+        "status": "confirmed",
+        "value": 10
       }
     ],
     "cloudflare|dev.avar.me|page_views|country=CN": [
@@ -1419,6 +1454,11 @@
       {
         "date": "2026-11-16",
         "status": "delayed",
+        "value": 10
+      },
+      {
+        "date": "2026-11-20",
+        "status": "confirmed",
         "value": 10
       }
     ],
@@ -1544,6 +1584,11 @@
         "date": "2026-11-19",
         "status": "estimated",
         "value": 10
+      },
+      {
+        "date": "2026-11-20",
+        "status": "estimated",
+        "value": 0
       }
     ],
     "cloudflare|en.avar.me|page_views": [
@@ -1622,7 +1667,7 @@
       },
       {
         "date": "2026-11-20",
-        "status": "delayed",
+        "status": "confirmed",
         "value": 10
       }
     ],
@@ -1682,6 +1727,11 @@
         "date": "2026-11-18",
         "status": "estimated",
         "value": 10
+      },
+      {
+        "date": "2026-11-21",
+        "status": "estimated",
+        "value": 10
       }
     ],
     "cloudflare|ios.avar.me|page_views|country=CN": [
@@ -1714,6 +1764,11 @@
         "date": "2026-11-18",
         "status": "confirmed",
         "value": 10
+      },
+      {
+        "date": "2026-11-21",
+        "status": "delayed",
+        "value": 10
       }
     ],
     "cloudflare|ios.avar.me|visits": [
@@ -1744,6 +1799,11 @@
       },
       {
         "date": "2026-11-18",
+        "status": "estimated",
+        "value": 10
+      },
+      {
+        "date": "2026-11-21",
         "status": "estimated",
         "value": 10
       }
@@ -1897,7 +1957,7 @@
       {
         "date": "2026-11-20",
         "status": "estimated",
-        "value": 20
+        "value": 30
       }
     ],
     "cloudflare|sources.avar.me|page_views|country=AE": [
@@ -1980,7 +2040,7 @@
       },
       {
         "date": "2026-11-20",
-        "status": "delayed",
+        "status": "confirmed",
         "value": 10
       }
     ],
@@ -2553,6 +2613,11 @@
         "date": "2026-11-19",
         "status": "confirmed",
         "value": 10
+      },
+      {
+        "date": "2026-11-20",
+        "status": "confirmed",
+        "value": 10
       }
     ],
     "cloudflare|sources.avar.me|page_views|country=SA": [
@@ -2724,7 +2789,7 @@
     "cloudflare|sources.avar.me|page_views|country=TW": [
       {
         "date": "2026-11-20",
-        "status": "delayed",
+        "status": "confirmed",
         "value": 10
       }
     ],
@@ -3006,7 +3071,7 @@
       {
         "date": "2026-11-20",
         "status": "estimated",
-        "value": 20
+        "value": 30
       }
     ],
     "cloudflare|stats.avar.me|page_views": [
@@ -3055,6 +3120,11 @@
         "date": "2026-11-20",
         "status": "confirmed",
         "value": 139
+      },
+      {
+        "date": "2026-11-21",
+        "status": "confirmed",
+        "value": 139
       }
     ],
     "telegram_channels|avar_kino|subscribers": [
@@ -3080,6 +3150,11 @@
       },
       {
         "date": "2026-11-20",
+        "status": "confirmed",
+        "value": 18
+      },
+      {
+        "date": "2026-11-21",
         "status": "confirmed",
         "value": 18
       }
@@ -3109,6 +3184,11 @@
         "date": "2026-11-20",
         "status": "confirmed",
         "value": 129
+      },
+      {
+        "date": "2026-11-21",
+        "status": "confirmed",
+        "value": 129
       }
     ],
     "telegram_stickers|AvarMe|sticker_count": [
@@ -3134,6 +3214,11 @@
       },
       {
         "date": "2026-11-20",
+        "status": "confirmed",
+        "value": 31
+      },
+      {
+        "date": "2026-11-21",
         "status": "confirmed",
         "value": 31
       }
