@@ -1,7 +1,7 @@
 {
   "cards": [
     {
-      "as_of": "2026-11-21",
+      "as_of": "2026-11-22",
       "definition": "Текущее число участников канала по getChatMemberCount на момент снимка. История — это накопленные снимки, а не восстановленные прошлые дни. Сумма по каналам считает человека в двух каналах дважды и не является числом уникальных пользователей.",
       "delta_30d": null,
       "delta_30d_from": null,
@@ -18,13 +18,13 @@
       "status": "ok",
       "title": "Подписчики",
       "unit": "subscribers",
-      "updated_at": "2026-11-21T10:50:54Z",
-      "value": 286,
+      "updated_at": "2026-11-22T10:58:50Z",
+      "value": 287,
       "window_30d": null,
       "window_7d": null
     },
     {
-      "as_of": "2026-11-21",
+      "as_of": "2026-11-22",
       "definition": "Число стикеров, которое Telegram возвращает в getStickerSet. Это размер набора, а не число установок и не число пользователей.",
       "delta_30d": null,
       "delta_30d_from": null,
@@ -41,13 +41,13 @@
       "status": "ok",
       "title": "Стикеров в наборе",
       "unit": "stickers",
-      "updated_at": "2026-11-21T10:50:54Z",
+      "updated_at": "2026-11-22T10:58:50Z",
       "value": 31,
       "window_30d": null,
       "window_7d": null
     },
     {
-      "as_of": "2026-11-21",
+      "as_of": "2026-11-22",
       "definition": "Просмотры из Cloudflare Web Analytics (набор rumPageloadEventsAdaptiveGroups, поле count, маяк в браузере, bot: 0). Это не HTTP-запросы зоны и не уникальные посетители.",
       "delta_30d": null,
       "delta_30d_from": null,
@@ -64,25 +64,25 @@
       "status": "ok",
       "title": "Просмотры страниц",
       "unit": "views",
-      "updated_at": "2026-11-21T10:50:54Z",
-      "value": 90,
+      "updated_at": "2026-11-22T10:58:50Z",
+      "value": 40,
       "window_30d": {
         "days_expected": 30,
         "days_present": 30,
-        "end": "2026-11-21",
-        "start": "2026-10-23",
-        "sum": 21320
+        "end": "2026-11-22",
+        "start": "2026-10-24",
+        "sum": 21290
       },
       "window_7d": {
         "days_expected": 7,
         "days_present": 7,
-        "end": "2026-11-21",
-        "start": "2026-11-15",
-        "sum": 1510
+        "end": "2026-11-22",
+        "start": "2026-11-16",
+        "sum": 1560
       }
     },
     {
-      "as_of": "2026-11-21",
+      "as_of": "2026-11-22",
       "definition": "Визиты Cloudflare Web Analytics (sum.visits): загрузки страницы, начатые с другого сайта. Это не уникальные посетители и не HTTP-запросы.",
       "delta_30d": null,
       "delta_30d_from": null,
@@ -99,21 +99,21 @@
       "status": "ok",
       "title": "Визиты",
       "unit": "visits",
-      "updated_at": "2026-11-21T10:50:54Z",
-      "value": 70,
+      "updated_at": "2026-11-22T10:58:50Z",
+      "value": 30,
       "window_30d": {
         "days_expected": 30,
         "days_present": 30,
-        "end": "2026-11-21",
-        "start": "2026-10-23",
-        "sum": 18610
+        "end": "2026-11-22",
+        "start": "2026-10-24",
+        "sum": 18660
       },
       "window_7d": {
         "days_expected": 7,
         "days_present": 7,
-        "end": "2026-11-21",
-        "start": "2026-11-15",
-        "sum": 850
+        "end": "2026-11-22",
+        "start": "2026-11-16",
+        "sum": 930
       }
     },
     {
@@ -187,7 +187,7 @@
     }
   ],
   "freshness_hours": 36,
-  "generated_at": "2026-11-21T10:51:03Z",
+  "generated_at": "2026-11-22T10:58:57Z",
   "preview": false,
   "ranges": [
     "7d",
@@ -214,8 +214,8 @@
               "delta_7d_from": null,
               "kind": "snapshot",
               "label": "Подписчики",
-              "latest": 129,
-              "latest_date": "2026-11-21",
+              "latest": 130,
+              "latest_date": "2026-11-22",
               "latest_status": "confirmed",
               "metric": "subscribers",
               "series": "telegram_channels|avarlangme|subscribers",
@@ -242,7 +242,7 @@
               "kind": "snapshot",
               "label": "Подписчики",
               "latest": 18,
-              "latest_date": "2026-11-21",
+              "latest_date": "2026-11-22",
               "latest_status": "confirmed",
               "metric": "subscribers",
               "series": "telegram_channels|avar_kino|subscribers",
@@ -269,7 +269,7 @@
               "kind": "snapshot",
               "label": "Подписчики",
               "latest": 139,
-              "latest_date": "2026-11-21",
+              "latest_date": "2026-11-22",
               "latest_status": "confirmed",
               "metric": "subscribers",
               "series": "telegram_channels|avar_film|subscribers",
@@ -284,8 +284,8 @@
       ],
       "hint": "Секрет TELEGRAM_BOT_TOKEN. Бот должен иметь доступ к каналу: используется getChatMemberCount.",
       "id": "telegram_channels",
-      "last_attempt": "2026-11-21T10:50:54Z",
-      "last_success": "2026-11-21T10:50:54Z",
+      "last_attempt": "2026-11-22T10:58:50Z",
+      "last_success": "2026-11-22T10:58:50Z",
       "note": null,
       "status": "ok",
       "title": "Telegram-каналы",
@@ -317,7 +317,7 @@
               "kind": "snapshot",
               "label": "Стикеров в наборе",
               "latest": 31,
-              "latest_date": "2026-11-21",
+              "latest_date": "2026-11-22",
               "latest_status": "confirmed",
               "metric": "sticker_count",
               "series": "telegram_stickers|AvarMe|sticker_count",
@@ -332,8 +332,8 @@
       ],
       "hint": "Тот же TELEGRAM_BOT_TOKEN. getStickerSet отдаёт состав набора и не отдаёт установки.",
       "id": "telegram_stickers",
-      "last_attempt": "2026-11-21T10:50:54Z",
-      "last_success": "2026-11-21T10:50:54Z",
+      "last_attempt": "2026-11-22T10:58:50Z",
+      "last_success": "2026-11-22T10:58:50Z",
       "note": null,
       "status": "ok",
       "title": "Стикерпаки",
@@ -352,51 +352,51 @@
         {
           "breakdowns": [
             {
-              "as_of": "2026-11-21",
+              "as_of": "2026-11-22",
               "dimension": "path",
               "metric": "page_views",
               "rows": [
                 {
                   "label": "/",
                   "status": "confirmed",
-                  "value": 3090
+                  "value": 3070
                 },
                 {
                   "label": "/index.html",
                   "status": "confirmed",
-                  "value": 340
+                  "value": 330
                 },
                 {
                   "label": "/phrases.html",
                   "status": "confirmed",
-                  "value": 180
+                  "value": 170
                 }
               ]
             },
             {
-              "as_of": "2026-11-21",
+              "as_of": "2026-11-22",
               "dimension": "referrer",
               "metric": "page_views",
               "rows": [
                 {
                   "label": "avar.me",
                   "status": "confirmed",
-                  "value": 2060
+                  "value": 1990
                 },
                 {
                   "label": "(прямой заход)",
                   "status": "confirmed",
-                  "value": 870
+                  "value": 930
                 },
                 {
                   "label": "www.google.com",
                   "status": "confirmed",
-                  "value": 260
+                  "value": 250
                 },
                 {
                   "label": "yandex.ru",
                   "status": "confirmed",
-                  "value": 130
+                  "value": 100
                 },
                 {
                   "label": "ya.ru",
@@ -423,8 +423,8 @@
               "delta_7d_from": null,
               "kind": "flow",
               "label": "Просмотры страниц",
-              "latest": 80,
-              "latest_date": "2026-11-21",
+              "latest": 30,
+              "latest_date": "2026-11-22",
               "latest_status": "estimated",
               "metric": "page_views",
               "series": "cloudflare|avar.me|page_views",
@@ -432,16 +432,16 @@
               "window_30d": {
                 "days_expected": 30,
                 "days_present": 30,
-                "end": "2026-11-21",
-                "start": "2026-10-23",
-                "sum": 3610
+                "end": "2026-11-22",
+                "start": "2026-10-24",
+                "sum": 3570
               },
               "window_7d": {
                 "days_expected": 7,
                 "days_present": 7,
-                "end": "2026-11-21",
-                "start": "2026-11-15",
-                "sum": 1230
+                "end": "2026-11-22",
+                "start": "2026-11-16",
+                "sum": 1270
               }
             },
             {
@@ -452,8 +452,8 @@
               "delta_7d_from": null,
               "kind": "flow",
               "label": "Визиты",
-              "latest": 60,
-              "latest_date": "2026-11-21",
+              "latest": 20,
+              "latest_date": "2026-11-22",
               "latest_status": "estimated",
               "metric": "visits",
               "series": "cloudflare|avar.me|visits",
@@ -461,16 +461,16 @@
               "window_30d": {
                 "days_expected": 30,
                 "days_present": 30,
-                "end": "2026-11-21",
-                "start": "2026-10-23",
-                "sum": 1550
+                "end": "2026-11-22",
+                "start": "2026-10-24",
+                "sum": 1580
               },
               "window_7d": {
                 "days_expected": 7,
                 "days_present": 7,
-                "end": "2026-11-21",
-                "start": "2026-11-15",
-                "sum": 610
+                "end": "2026-11-22",
+                "start": "2026-11-16",
+                "sum": 670
               }
             },
             {
@@ -559,15 +559,15 @@
               "window_30d": {
                 "days_expected": 30,
                 "days_present": 7,
-                "end": "2026-11-21",
-                "start": "2026-10-23",
+                "end": "2026-11-22",
+                "start": "2026-10-24",
                 "sum": 70
               },
               "window_7d": {
                 "days_expected": 7,
                 "days_present": 2,
-                "end": "2026-11-21",
-                "start": "2026-11-15",
+                "end": "2026-11-22",
+                "start": "2026-11-16",
                 "sum": 20
               }
             },
@@ -588,15 +588,15 @@
               "window_30d": {
                 "days_expected": 30,
                 "days_present": 7,
-                "end": "2026-11-21",
-                "start": "2026-10-23",
+                "end": "2026-11-22",
+                "start": "2026-10-24",
                 "sum": 70
               },
               "window_7d": {
                 "days_expected": 7,
                 "days_present": 2,
-                "end": "2026-11-21",
-                "start": "2026-11-15",
+                "end": "2026-11-22",
+                "start": "2026-11-16",
                 "sum": 20
               }
             },
@@ -674,15 +674,15 @@
               "window_30d": {
                 "days_expected": 30,
                 "days_present": 3,
-                "end": "2026-11-21",
-                "start": "2026-10-23",
+                "end": "2026-11-22",
+                "start": "2026-10-24",
                 "sum": 30
               },
               "window_7d": {
                 "days_expected": 7,
                 "days_present": 2,
-                "end": "2026-11-21",
-                "start": "2026-11-15",
+                "end": "2026-11-22",
+                "start": "2026-11-16",
                 "sum": 20
               }
             },
@@ -703,15 +703,15 @@
               "window_30d": {
                 "days_expected": 30,
                 "days_present": 3,
-                "end": "2026-11-21",
-                "start": "2026-10-23",
+                "end": "2026-11-22",
+                "start": "2026-10-24",
                 "sum": 30
               },
               "window_7d": {
                 "days_expected": 7,
                 "days_present": 2,
-                "end": "2026-11-21",
-                "start": "2026-11-15",
+                "end": "2026-11-22",
+                "start": "2026-11-16",
                 "sum": 20
               }
             },
@@ -912,19 +912,14 @@
         {
           "breakdowns": [
             {
-              "as_of": "2026-11-20",
+              "as_of": "2026-11-22",
               "dimension": "path",
               "metric": "page_views",
               "rows": [
                 {
                   "label": "/",
                   "status": "confirmed",
-                  "value": 140
-                },
-                {
-                  "label": "/phrase-av-ru/",
-                  "status": "confirmed",
-                  "value": 30
+                  "value": 150
                 },
                 {
                   "label": "/av-ru.1936/index.html",
@@ -939,19 +934,19 @@
               ]
             },
             {
-              "as_of": "2026-11-20",
+              "as_of": "2026-11-22",
               "dimension": "referrer",
               "metric": "page_views",
               "rows": [
                 {
                   "label": "(прямой заход)",
                   "status": "confirmed",
-                  "value": 16630
+                  "value": 16650
                 },
                 {
                   "label": "sources.avar.me",
                   "status": "confirmed",
-                  "value": 230
+                  "value": 220
                 },
                 {
                   "label": "www.google.com",
@@ -983,25 +978,25 @@
               "delta_7d_from": null,
               "kind": "flow",
               "label": "Просмотры страниц",
-              "latest": 30,
-              "latest_date": "2026-11-20",
+              "latest": 10,
+              "latest_date": "2026-11-22",
               "latest_status": "estimated",
               "metric": "page_views",
               "series": "cloudflare|sources.avar.me|page_views",
               "unit": "views",
               "window_30d": {
                 "days_expected": 30,
-                "days_present": 27,
-                "end": "2026-11-21",
-                "start": "2026-10-23",
-                "sum": 17040
+                "days_present": 28,
+                "end": "2026-11-22",
+                "start": "2026-10-24",
+                "sum": 17050
               },
               "window_7d": {
                 "days_expected": 7,
-                "days_present": 6,
-                "end": "2026-11-21",
-                "start": "2026-11-15",
-                "sum": 160
+                "days_present": 7,
+                "end": "2026-11-22",
+                "start": "2026-11-16",
+                "sum": 180
               }
             },
             {
@@ -1012,25 +1007,25 @@
               "delta_7d_from": null,
               "kind": "flow",
               "label": "Визиты",
-              "latest": 30,
-              "latest_date": "2026-11-20",
+              "latest": 10,
+              "latest_date": "2026-11-22",
               "latest_status": "estimated",
               "metric": "visits",
               "series": "cloudflare|sources.avar.me|visits",
               "unit": "visits",
               "window_30d": {
                 "days_expected": 30,
-                "days_present": 27,
-                "end": "2026-11-21",
-                "start": "2026-10-23",
-                "sum": 16810
+                "days_present": 28,
+                "end": "2026-11-22",
+                "start": "2026-10-24",
+                "sum": 16830
               },
               "window_7d": {
                 "days_expected": 7,
-                "days_present": 6,
-                "end": "2026-11-21",
-                "start": "2026-11-15",
-                "sum": 150
+                "days_present": 7,
+                "end": "2026-11-22",
+                "start": "2026-11-16",
+                "sum": 170
               }
             },
             {
@@ -1134,16 +1129,16 @@
               "window_30d": {
                 "days_expected": 30,
                 "days_present": 15,
-                "end": "2026-11-21",
-                "start": "2026-10-23",
+                "end": "2026-11-22",
+                "start": "2026-10-24",
                 "sum": 550
               },
               "window_7d": {
                 "days_expected": 7,
-                "days_present": 5,
-                "end": "2026-11-21",
-                "start": "2026-11-15",
-                "sum": 60
+                "days_present": 4,
+                "end": "2026-11-22",
+                "start": "2026-11-16",
+                "sum": 50
               }
             },
             {
@@ -1163,15 +1158,15 @@
               "window_30d": {
                 "days_expected": 30,
                 "days_present": 15,
-                "end": "2026-11-21",
-                "start": "2026-10-23",
+                "end": "2026-11-22",
+                "start": "2026-10-24",
                 "sum": 130
               },
               "window_7d": {
                 "days_expected": 7,
-                "days_present": 5,
-                "end": "2026-11-21",
-                "start": "2026-11-15",
+                "days_present": 4,
+                "end": "2026-11-22",
+                "start": "2026-11-16",
                 "sum": 30
               }
             },
@@ -1249,15 +1244,15 @@
               "window_30d": {
                 "days_expected": 30,
                 "days_present": 1,
-                "end": "2026-11-21",
-                "start": "2026-10-23",
+                "end": "2026-11-22",
+                "start": "2026-10-24",
                 "sum": 10
               },
               "window_7d": {
                 "days_expected": 7,
                 "days_present": 1,
-                "end": "2026-11-21",
-                "start": "2026-11-15",
+                "end": "2026-11-22",
+                "start": "2026-11-16",
                 "sum": 10
               }
             },
@@ -1278,15 +1273,15 @@
               "window_30d": {
                 "days_expected": 30,
                 "days_present": 1,
-                "end": "2026-11-21",
-                "start": "2026-10-23",
+                "end": "2026-11-22",
+                "start": "2026-10-24",
                 "sum": 10
               },
               "window_7d": {
                 "days_expected": 7,
                 "days_present": 1,
-                "end": "2026-11-21",
-                "start": "2026-11-15",
+                "end": "2026-11-22",
+                "start": "2026-11-16",
                 "sum": 10
               }
             },
@@ -1351,15 +1346,15 @@
               "window_30d": {
                 "days_expected": 30,
                 "days_present": 1,
-                "end": "2026-11-21",
-                "start": "2026-10-23",
+                "end": "2026-11-22",
+                "start": "2026-10-24",
                 "sum": 10
               },
               "window_7d": {
                 "days_expected": 7,
                 "days_present": 1,
-                "end": "2026-11-21",
-                "start": "2026-11-15",
+                "end": "2026-11-22",
+                "start": "2026-11-16",
                 "sum": 10
               }
             },
@@ -1380,15 +1375,15 @@
               "window_30d": {
                 "days_expected": 30,
                 "days_present": 1,
-                "end": "2026-11-21",
-                "start": "2026-10-23",
+                "end": "2026-11-22",
+                "start": "2026-10-24",
                 "sum": 10
               },
               "window_7d": {
                 "days_expected": 7,
                 "days_present": 1,
-                "end": "2026-11-21",
-                "start": "2026-11-15",
+                "end": "2026-11-22",
+                "start": "2026-11-16",
                 "sum": 10
               }
             },
@@ -1433,8 +1428,8 @@
       ],
       "hint": "Секреты CLOUDFLARE_API_TOKEN (Account Analytics Read) и CLOUDFLARE_ACCOUNT_ID. У каждого сайта свой site_tag из data-cf-beacon. zone_id необязателен и нужен только для HTTP-запросов.",
       "id": "cloudflare",
-      "last_attempt": "2026-11-21T10:50:54Z",
-      "last_success": "2026-11-21T10:50:54Z",
+      "last_attempt": "2026-11-22T10:58:50Z",
+      "last_success": "2026-11-22T10:58:50Z",
       "note": null,
       "status": "ok",
       "title": "Сайты",
@@ -1514,7 +1509,7 @@
       ],
       "hint": "Включите sources.apple.enabled и задайте APPLE_KEY_ID, APPLE_ISSUER_ID, APPLE_PRIVATE_KEY, APPLE_APP_ID. Один раз создайте ONGOING-запрос ключом Admin: python scripts/apple_request.py --confirm.",
       "id": "apple",
-      "last_attempt": "2026-11-21T10:50:54Z",
+      "last_attempt": "2026-11-22T10:58:50Z",
       "last_success": null,
       "note": "Модуль подключён. Источник выключен в config.yaml и включается без изменений кода.",
       "status": "disabled",
@@ -1606,7 +1601,7 @@
       ],
       "hint": "Включите sources.google_play.enabled. Нужны GOOGLE_PLAY_CREDENTIALS и GOOGLE_PLAY_BUCKET. Play Developer Reporting API установки не отдаёт: модуль читает ежемесячные CSV из Cloud Storage.",
       "id": "google_play",
-      "last_attempt": "2026-11-21T10:50:54Z",
+      "last_attempt": "2026-11-22T10:58:50Z",
       "last_success": null,
       "note": "Модуль подключён. Источник выключен в config.yaml и включается без изменений кода.",
       "status": "disabled",
@@ -1766,7 +1761,7 @@
       ],
       "hint": "Включите sources.telegram_bots.enabled и передайте TELEMETRY_FILE или TELEMETRY_URL. Счётчики пишет integrations/telegram_bot_analytics.py либо tgcloud-модуль integrations/tgcloud. Bot API историю использования не отдаёт.",
       "id": "telegram_bots",
-      "last_attempt": "2026-11-21T10:50:54Z",
+      "last_attempt": "2026-11-22T10:58:50Z",
       "last_success": null,
       "note": "Модуль подключён. Источник выключен в config.yaml и включается без изменений кода.",
       "status": "disabled",

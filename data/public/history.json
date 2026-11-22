@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T10:51:03Z",
+  "generated_at": "2026-11-22T10:58:57Z",
   "preview": false,
   "series": {
     "cloudflare|avar.me|page_views": [
@@ -176,7 +176,12 @@
       {
         "date": "2026-11-21",
         "status": "estimated",
-        "value": 80
+        "value": 170
+      },
+      {
+        "date": "2026-11-22",
+        "status": "estimated",
+        "value": 30
       }
     ],
     "cloudflare|avar.me|page_views|country=AE": [
@@ -224,6 +229,11 @@
       },
       {
         "date": "2026-10-29",
+        "status": "confirmed",
+        "value": 10
+      },
+      {
+        "date": "2026-11-21",
         "status": "confirmed",
         "value": 10
       }
@@ -401,6 +411,11 @@
         "date": "2026-11-15",
         "status": "confirmed",
         "value": 20
+      },
+      {
+        "date": "2026-11-22",
+        "status": "delayed",
+        "value": 10
       }
     ],
     "cloudflare|avar.me|page_views|country=CO": [
@@ -459,6 +474,11 @@
         "date": "2026-11-15",
         "status": "confirmed",
         "value": 10
+      },
+      {
+        "date": "2026-11-21",
+        "status": "confirmed",
+        "value": 20
       }
     ],
     "cloudflare|avar.me|page_views|country=IL": [
@@ -589,7 +609,7 @@
       },
       {
         "date": "2026-11-21",
-        "status": "delayed",
+        "status": "confirmed",
         "value": 20
       }
     ],
@@ -787,8 +807,13 @@
       },
       {
         "date": "2026-11-21",
+        "status": "confirmed",
+        "value": 120
+      },
+      {
+        "date": "2026-11-22",
         "status": "delayed",
-        "value": 60
+        "value": 20
       }
     ],
     "cloudflare|avar.me|page_views|country=SA": [
@@ -1314,7 +1339,12 @@
       {
         "date": "2026-11-21",
         "status": "estimated",
-        "value": 60
+        "value": 120
+      },
+      {
+        "date": "2026-11-22",
+        "status": "estimated",
+        "value": 20
       }
     ],
     "cloudflare|dev.avar.me|page_views": [
@@ -1767,7 +1797,7 @@
       },
       {
         "date": "2026-11-21",
-        "status": "delayed",
+        "status": "confirmed",
         "value": 10
       }
     ],
@@ -1958,6 +1988,16 @@
         "date": "2026-11-20",
         "status": "estimated",
         "value": 30
+      },
+      {
+        "date": "2026-11-21",
+        "status": "estimated",
+        "value": 20
+      },
+      {
+        "date": "2026-11-22",
+        "status": "estimated",
+        "value": 10
       }
     ],
     "cloudflare|sources.avar.me|page_views|country=AE": [
@@ -2053,6 +2093,11 @@
       {
         "date": "2026-11-05",
         "status": "confirmed",
+        "value": 10
+      },
+      {
+        "date": "2026-11-22",
+        "status": "delayed",
         "value": 10
       }
     ],
@@ -2302,6 +2347,11 @@
       },
       {
         "date": "2026-11-19",
+        "status": "confirmed",
+        "value": 10
+      },
+      {
+        "date": "2026-11-21",
         "status": "confirmed",
         "value": 10
       }
@@ -2784,6 +2834,11 @@
         "date": "2026-11-17",
         "status": "confirmed",
         "value": 10
+      },
+      {
+        "date": "2026-11-21",
+        "status": "confirmed",
+        "value": 10
       }
     ],
     "cloudflare|sources.avar.me|page_views|country=TW": [
@@ -3072,6 +3127,16 @@
         "date": "2026-11-20",
         "status": "estimated",
         "value": 30
+      },
+      {
+        "date": "2026-11-21",
+        "status": "estimated",
+        "value": 20
+      },
+      {
+        "date": "2026-11-22",
+        "status": "estimated",
+        "value": 10
       }
     ],
     "cloudflare|stats.avar.me|page_views": [
@@ -3125,6 +3190,11 @@
         "date": "2026-11-21",
         "status": "confirmed",
         "value": 139
+      },
+      {
+        "date": "2026-11-22",
+        "status": "confirmed",
+        "value": 139
       }
     ],
     "telegram_channels|avar_kino|subscribers": [
@@ -3155,6 +3225,11 @@
       },
       {
         "date": "2026-11-21",
+        "status": "confirmed",
+        "value": 18
+      },
+      {
+        "date": "2026-11-22",
         "status": "confirmed",
         "value": 18
       }
@@ -3189,6 +3264,11 @@
         "date": "2026-11-21",
         "status": "confirmed",
         "value": 129
+      },
+      {
+        "date": "2026-11-22",
+        "status": "confirmed",
+        "value": 130
       }
     ],
     "telegram_stickers|AvarMe|sticker_count": [
@@ -3219,6 +3299,11 @@
       },
       {
         "date": "2026-11-21",
+        "status": "confirmed",
+        "value": 31
+      },
+      {
+        "date": "2026-11-22",
         "status": "confirmed",
         "value": 31
       }
