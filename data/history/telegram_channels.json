@@ -2,10 +2,10 @@
   "meta": {
     "entity_errors": {},
     "entity_info": {},
-    "last_attempt": "2026-11-24T13:28:54Z",
+    "last_attempt": "2026-11-25T12:28:35Z",
     "last_error": null,
     "last_records": 3,
-    "last_success": "2026-11-24T13:28:54Z",
+    "last_success": "2026-11-25T12:28:35Z",
     "state": "ok",
     "warnings": []
   },
@@ -122,6 +122,19 @@
       "entity": "avar_film",
       "metric": "subscribers",
       "revision": "2026-11-24T13:28:54Z",
+      "source": "telegram_channels",
+      "status": "confirmed",
+      "unit": "subscribers",
+      "value": 138.0
+    },
+    "telegram_channels|avar_film|subscribers|2026-11-25|": {
+      "aggregation": "snapshot",
+      "collected_at": "2026-11-25T12:28:35Z",
+      "date": "2026-11-25",
+      "dimensions": {},
+      "entity": "avar_film",
+      "metric": "subscribers",
+      "revision": "2026-11-25T12:28:35Z",
       "source": "telegram_channels",
       "status": "confirmed",
       "unit": "subscribers",
@@ -244,6 +257,19 @@
       "unit": "subscribers",
       "value": 18.0
     },
+    "telegram_channels|avar_kino|subscribers|2026-11-25|": {
+      "aggregation": "snapshot",
+      "collected_at": "2026-11-25T12:28:35Z",
+      "date": "2026-11-25",
+      "dimensions": {},
+      "entity": "avar_kino",
+      "metric": "subscribers",
+      "revision": "2026-11-25T12:28:35Z",
+      "source": "telegram_channels",
+      "status": "confirmed",
+      "unit": "subscribers",
+      "value": 18.0
+    },
     "telegram_channels|avarlangme|subscribers|2026-11-16|": {
       "aggregation": "snapshot",
       "collected_at": "2026-11-16T21:33:52Z",
@@ -360,6 +386,19 @@
       "status": "confirmed",
       "unit": "subscribers",
       "value": 131.0
+    },
+    "telegram_channels|avarlangme|subscribers|2026-11-25|": {
+      "aggregation": "snapshot",
+      "collected_at": "2026-11-25T12:28:35Z",
+      "date": "2026-11-25",
+      "dimensions": {},
+      "entity": "avarlangme",
+      "metric": "subscribers",
+      "revision": "2026-11-25T12:28:35Z",
+      "source": "telegram_channels",
+      "status": "confirmed",
+      "unit": "subscribers",
+      "value": 132.0
     }
   }
 }
